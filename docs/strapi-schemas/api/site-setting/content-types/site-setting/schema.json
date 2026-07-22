@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Settings",
+    "description": "Global non-localized site configuration: branding, contact info, and social links"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": false
+    }
+  },
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "contactPhone": {
+      "type": "string",
+      "required": true
+    },
+    "contactWhatsapp": {
+      "type": "string",
+      "required": true
+    },
+    "contactEmail": {
+      "type": "email",
+      "required": true
+    },
+    "preferredContact": {
+      "type": "enumeration",
+      "enum": ["whatsapp", "email", "phone"],
+      "required": true,
+      "default": "whatsapp"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "site.social-link"
+    }
+  }
+}

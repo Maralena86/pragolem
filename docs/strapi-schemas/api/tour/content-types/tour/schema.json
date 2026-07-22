@@ -1,0 +1,113 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tours",
+  "info": {
+    "singularName": "tour",
+    "pluralName": "tours",
+    "displayName": "Tour",
+    "description": "Walking tours and private tour offerings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": { "localized": true }
+      }
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": { "localized": true }
+      }
+    },
+    "longDescription": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": { "localized": true }
+      }
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "duration": {
+      "type": "string",
+      "required": true
+    },
+    "durationDisplay": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": { "localized": true }
+      }
+    },
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "shared.list-item"
+    },
+    "maxGroupSize": {
+      "type": "integer",
+      "required": true
+    },
+    "priceType": {
+      "type": "enumeration",
+      "enum": ["free", "paid"],
+      "required": true
+    },
+    "meetingPoint": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "tour.meeting-point"
+    },
+    "itinerary": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "tour.stop"
+    },
+    "practicalInfo": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "tour.practical-info"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "shared.seo"
+    },
+    "guide": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::guide.guide",
+      "inversedBy": "tours"
+    },
+    "relatedTours": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tour.tour"
+    }
+  }
+}

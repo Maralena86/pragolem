@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_translations",
+  "info": {
+    "singularName": "site-translation",
+    "pluralName": "site-translations",
+    "displayName": "Site Translations",
+    "description": "Localized site-wide strings like tagline and booking notice"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "tagline": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "bookingNotice": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

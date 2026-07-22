@@ -1,0 +1,620 @@
+{
+  "HomePage": {
+    "title": "Free Walking Tours in Prague",
+    "subtitle": "Discover Prague with certified local guides in English and French.",
+    "meta": {
+      "title": "Free Walking Tour Prague | Pragolem Tours",
+      "description": "Book a top-rated free walking tour in Prague with certified local guides. Explore Old Town, Prague Castle, and private tour options."
+    },
+    "hero": {
+      "badge": "Top-rated local guides",
+      "primaryCta": "Reserve your free tour",
+      "secondaryCta": "See all tours",
+      "ratingLabel": "Average rating",
+      "reviewsLabel": "Published reviews",
+      "toursLabel": "Available tours"
+    },
+    "sections": {
+      "tours": {
+        "title": "Choose your Prague tour",
+        "subtitle": "Every route is built for first-time visitors and guided by locals who live the city every day."
+      },
+      "howItWorks": {
+        "title": "How it works",
+        "subtitle": "Simple booking, clear meeting points, and pay-what-you-wish free tours."
+      },
+      "guides": {
+        "title": "Meet the guides",
+        "subtitle": "Pragolem is led by certified guides focused on clear storytelling and practical advice."
+      },
+      "reviews": {
+        "title": "Guest reviews",
+        "subtitle": "Recent feedback from travelers who explored Prague with us."
+      },
+      "faq": {
+        "title": "Frequently asked questions",
+        "subtitle": "Key details about booking, tour format, weather, and logistics."
+      },
+      "finalCta": {
+        "title": "Ready to explore Prague with us?",
+        "subtitle": "Choose your date now or send us a message and we will help you pick the best route."
+      }
+    },
+    "tourCard": {
+      "durationLabel": "Duration",
+      "languagesLabel": "Languages",
+      "groupSizeLabel": "Max group size",
+      "guideLabel": "Guide",
+      "fallbackGuide": "Pragolem Guide",
+      "cta": "View tour details",
+      "priceType": {
+        "free": "Free tour",
+        "paid": "Private tour"
+      },
+      "language": {
+        "en": "English",
+        "fr": "French",
+        "es": "Spanish"
+      }
+    },
+    "how": {
+      "stepLabel": "Step",
+      "step1": {
+        "title": "Pick your route",
+        "body": "Choose Old Town, Prague Castle, or a private experience based on your interests and schedule."
+      },
+      "step2": {
+        "title": "Reserve your spot",
+        "body": "Book in under a minute and receive meeting-point details and timing instructions."
+      },
+      "step3": {
+        "title": "Join and enjoy",
+        "body": "Meet your guide, explore Prague in depth, and contribute what feels fair at the end."
+      }
+    },
+    "guides": {
+      "languagesLabel": "Guiding languages",
+      "yearsInPrague": "{count} years in Prague"
+    },
+    "reviews": {
+      "aggregate": "Rated {rating}/5 from {count} reviews",
+      "placeholderBadge": "Placeholder review",
+      "cta": "See all reviews",
+      "source": {
+        "google": "Google",
+        "tripadvisor": "Tripadvisor",
+        "direct": "Direct"
+      }
+    },
+    "faq": {
+      "cta": "Read full FAQ"
+    },
+    "finalCta": {
+      "primaryCta": "Book now",
+      "secondaryCta": "Contact us"
+    }
+  },
+  "TourPage": {
+    "meta": {
+      "notFoundTitle": "Tour not found | Pragolem Tours",
+      "notFoundDescription": "The requested tour page is not available in this language."
+    },
+    "priceType": {
+      "free": "Free tour",
+      "paid": "Private tour"
+    },
+    "languages": {
+      "en": "English",
+      "fr": "French",
+      "es": "Spanish"
+    },
+    "breadcrumbs": {
+      "ariaLabel": "Breadcrumb",
+      "home": "Home",
+      "tours": "Tours"
+    },
+    "hero": {
+      "primaryCta": "Book this tour",
+      "secondaryCta": "See all tours",
+      "durationLabel": "Duration",
+      "languagesLabel": "Languages",
+      "groupSizeLabel": "Max group size",
+      "meetingPointLabel": "Meeting point",
+      "switchLocale": {
+        "en": "English version",
+        "fr": "Version francaise"
+      }
+    },
+    "sections": {
+      "description": "Tour description",
+      "itinerary": "Itinerary",
+      "practicalInfo": "Practical info",
+      "pricing": "Pricing explanation",
+      "guide": "Guide preview",
+      "reviews": "Guest reviews",
+      "relatedTours": "Related tours",
+      "faq": "Tour FAQ"
+    },
+    "itinerary": {
+      "stopLabel": "Stop {order}",
+      "duration": "{minutes} min"
+    },
+    "practical": {
+      "whatToBring": "What to bring",
+      "meetingPoint": "Meeting point",
+      "meetingPointDescription": "How to find us",
+      "accessibility": "Accessibility",
+      "weatherPolicy": "Weather policy",
+      "childFriendly": "Child-friendly",
+      "paymentMethods": "Accepted payment methods",
+      "mapCta": "Open in Google Maps"
+    },
+    "pricing": {
+      "freeTitle": "Pay-what-you-wish model",
+      "freeDescription": "This is a free tour with no upfront ticket. You decide what to contribute at the end based on your experience and budget.",
+      "freeTipLabel": "Typical contribution guidance",
+      "freeSchemaOffer": "Pay what you wish after the tour.",
+      "paidTitle": "Fixed-price private format",
+      "paidDescription": "This private experience is priced with a custom quote based on group size, duration, and itinerary complexity.",
+      "paidCta": "Request booking details"
+    },
+    "guide": {
+      "languagesLabel": "Guiding languages",
+      "yearsInPrague": "{count} years in Prague",
+      "fallback": "Pragolem certified guide"
+    },
+    "reviews": {
+      "ratingSummary": "Rated {rating}/5 from {count} reviews",
+      "noReviews": "No reviews are published for this tour yet in this language.",
+      "placeholderBadge": "Placeholder review",
+      "viewAll": "See all reviews",
+      "source": {
+        "google": "Google",
+        "tripadvisor": "Tripadvisor",
+        "direct": "Direct"
+      }
+    },
+    "relatedTours": {
+      "durationLabel": "Duration",
+      "empty": "No related tours available right now.",
+      "cta": "View details"
+    },
+    "faq": {
+      "empty": "No FAQ entries are available for this tour format yet.",
+      "viewAll": "Read full FAQ"
+    },
+    "schema": {
+      "touristType": "First-time visitors, history lovers, families, and solo travelers"
+    }
+  },
+  "LanguageSwitcher": {
+    "label": "Language",
+    "en": "EN",
+    "fr": "FR"
+  },
+  "Header": {
+    "brand": "Pragolem Tours",
+    "bookingCta": "Book now",
+    "openMenu": "Open menu",
+    "menuTitle": "Menu",
+    "nav": {
+      "tours": "Tours",
+      "about": "About",
+      "reviews": "Reviews",
+      "faq": "FAQ",
+      "contact": "Contact"
+    }
+  },
+  "Footer": {
+    "exploreTitle": "Explore",
+    "contactTitle": "Contact & Legal",
+    "socialTitle": "Social",
+    "links": {
+      "tours": "Tours",
+      "about": "About",
+      "reviews": "Reviews",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "blog": "Blog",
+      "booking": "Booking",
+      "terms": "Terms & Conditions"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "whatsapp": "WhatsApp"
+    },
+    "copyright": "© {year} Pragolem Tours. All rights reserved."
+  },
+  "BookingPage": {
+    "meta": {
+      "title": "Book a Prague Tour | Pragolem Tours",
+      "description": "Reserve your Prague free walking tour in English or French. Choose your route, date, and time slot in under a minute."
+    },
+    "eyebrow": "Booking",
+    "title": "Reserve Your Tour",
+    "subtitle": "Complete this short form and we will confirm your spot with final meeting details.",
+    "formTitle": "Booking request",
+    "formSubtitle": "All required fields help us prepare your visit correctly.",
+    "sidebar": {
+      "noticeTitle": "Before you submit",
+      "privateTourHint": "For groups larger than 6 people, we recommend a private format with a custom route.",
+      "privateTourCta": "Request a private tour",
+      "contactTitle": "Need a quick answer?"
+    },
+    "form": {
+      "tourLabel": "Tour selection",
+      "tourPlaceholder": "Select a tour",
+      "tourPriceType": {
+        "free": "Free tour",
+        "paid": "Private tour"
+      },
+      "dateLabel": "Date",
+      "timeSlotLabel": "Time slot",
+      "timeSlotPlaceholder": "Select a time",
+      "timeSlots": {
+        "slot0900": "09:00",
+        "slot1100": "11:00",
+        "slot1400": "14:00",
+        "slot1700": "17:00"
+      },
+      "participantsLabel": "Participants",
+      "participantsPlaceholder": "Select group size",
+      "participantsCount": "{count} participant(s)",
+      "participantsPrivateNote": "For groups above 6 participants, please <contactLink>contact us</contactLink> for a private tour.",
+      "languageLabel": "Language",
+      "languagePlaceholder": "Select a language",
+      "languageOptions": {
+        "en": "English",
+        "fr": "French",
+        "es": "Spanish"
+      },
+      "fullNameLabel": "Full name",
+      "fullNamePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone (optional)",
+      "phonePlaceholder": "+420 ...",
+      "specialRequestsLabel": "Special requests",
+      "specialRequestsPlaceholder": "Tell us anything we should know before the tour.",
+      "termsLabel": "I accept the booking terms and understand this is a request pending confirmation.",
+      "submit": "Send booking request",
+      "submitPending": "Sending...",
+      "successToast": "Booking request sent. We will contact you shortly.",
+      "validation": {
+        "requiredTour": "Please select a tour.",
+        "requiredDate": "Please select a date.",
+        "pastDate": "Please choose today or a future date.",
+        "requiredTimeSlot": "Please select a time slot.",
+        "requiredParticipants": "Please select number of participants.",
+        "requiredLanguage": "Please select a language.",
+        "requiredFullName": "Please enter your full name.",
+        "fullNameTooShort": "Please provide at least 2 characters for your name.",
+        "requiredEmail": "Please enter your email address.",
+        "invalidEmail": "Please enter a valid email address.",
+        "termsRequired": "You must accept the terms before submitting."
+      }
+    }
+  },
+  "ContactPage": {
+    "meta": {
+      "title": "Contact Pragolem Tours",
+      "description": "Contact Pragolem Tours for tour questions, private requests, or quick support by phone, WhatsApp, or email."
+    },
+    "eyebrow": "Contact",
+    "title": "Talk With Our Team",
+    "subtitle": "Send a message or use direct contact links for faster support.",
+    "formTitle": "Send us a message",
+    "formSubtitle": "We usually reply quickly by email or WhatsApp.",
+    "quickActions": {
+      "title": "Quick contact",
+      "description": "Need immediate help? Use one of these direct channels.",
+      "call": "Call now",
+      "whatsapp": "Open WhatsApp"
+    },
+    "social": {
+      "title": "Social links",
+      "networks": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "map": {
+      "title": "Meeting point map",
+      "description": "Map embed placeholder while final embed integration is pending.",
+      "fallbackName": "Pragolem Meeting Point",
+      "fallbackAddress": "Prague, Czech Republic",
+      "placeholderNote": "Use the link below to open the current static map location.",
+      "openStaticLink": "Open static map link"
+    },
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "subjectLabel": "Subject",
+      "subjectPlaceholder": "How can we help?",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send message",
+      "submitPending": "Sending...",
+      "successToast": "Message sent. We will get back to you shortly.",
+      "validation": {
+        "requiredName": "Please enter your name.",
+        "nameTooShort": "Please provide at least 2 characters for your name.",
+        "requiredEmail": "Please enter your email address.",
+        "invalidEmail": "Please enter a valid email address.",
+        "requiredSubject": "Please enter a subject.",
+        "subjectTooShort": "Please provide at least 3 characters for the subject.",
+        "requiredMessage": "Please enter your message.",
+        "messageTooShort": "Please provide at least 10 characters in your message."
+      }
+    }
+  },
+  "AboutPage": {
+    "meta": {
+      "title": "About Pragolem Tours | Local Guides in Prague",
+      "description": "Learn the Pragolem story, meet Lucas and Nathan, and discover the guiding philosophy behind our tours in Prague."
+    },
+    "eyebrow": "About Pragolem",
+    "title": "A Guide-Led Project Built in Prague",
+    "subtitle": "Pragolem was created by two certified guides who wanted to combine historical depth, practical clarity, and honest human contact on every route.",
+    "story": {
+      "title": "Our story",
+      "paragraph1": "Pragolem started from a simple observation: many tours in Prague were either too superficial or too rigid. We wanted a format where guests could understand the city in context while still enjoying a relaxed and personal atmosphere.",
+      "paragraph2": "Today we guide in English and French across the Old Town, Prague Castle area, and private formats. Every itinerary is designed to help visitors leave with both concrete orientation and a deeper understanding of Czech history."
+    },
+    "guides": {
+      "title": "Lucas and Nathan",
+      "subtitle": "The two co-founders guiding Pragolem tours on the ground.",
+      "empty": "Guide profiles are temporarily unavailable.",
+      "languagesLabel": "Guiding languages",
+      "yearsInPrague": "{count} years in Prague"
+    },
+    "philosophy": {
+      "title": "How we guide",
+      "body": "Our tours follow three principles that shape every explanation, recommendation, and route decision.",
+      "principles": {
+        "accuracy": {
+          "title": "Historical accuracy",
+          "body": "We prioritize verified context over dramatic simplifications so visitors can trust what they hear."
+        },
+        "human": {
+          "title": "Human delivery",
+          "body": "We adapt pace, examples, and detail level to the group in front of us, not to a fixed script."
+        },
+        "clarity": {
+          "title": "Practical clarity",
+          "body": "We give useful orientation and local advice that stays relevant after the tour is over."
+        }
+      }
+    },
+    "media": {
+      "title": "Media mention",
+      "description": "Read a feature interview with Lucas and Nathan discussing modern guiding standards in Prague.",
+      "linkLabel": "Read the interview",
+      "href": "https://www.freewalkingtour.com/prague/",
+      "bookingCta": "Book a tour"
+    }
+  },
+  "FaqPage": {
+    "meta": {
+      "title": "Pragolem FAQ | Free Tours, Private Tours, and Booking",
+      "description": "Find complete answers about Pragolem free tours, private formats, logistics, accessibility, and booking in Prague."
+    },
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything travelers ask us most often, grouped by category for quick navigation.",
+    "categories": {
+      "free-tours": {
+        "title": "Free tour model",
+        "description": "How pay-what-you-wish works and what to expect before booking."
+      },
+      "tours": {
+        "title": "Tour logistics",
+        "description": "Duration, meeting points, weather policy, and practical preparation."
+      },
+      "private-tours": {
+        "title": "Private tours",
+        "description": "Custom formats, pricing logic, and itinerary flexibility."
+      },
+      "pragolem": {
+        "title": "About Pragolem",
+        "description": "Guide credentials, team details, and cancellation or rescheduling."
+      }
+    },
+    "cta": {
+      "title": "Still have a question?",
+      "description": "Send us a message and we will recommend the best tour format for your trip.",
+      "primary": "Book now",
+      "secondary": "Contact us"
+    }
+  },
+  "ReviewsPage": {
+    "meta": {
+      "title": "Pragolem Reviews | Verified Feedback From Prague Tours",
+      "description": "Read traveler reviews of Pragolem tours in Prague, filter by language and tour, and explore overall rating data."
+    },
+    "eyebrow": "Reviews",
+    "title": "Guest Reviews",
+    "subtitle": "Browse feedback from travelers who joined Pragolem tours in Prague.",
+    "summary": {
+      "ratingLabel": "Average rating",
+      "countLabel": "Published reviews",
+      "scopeLabel": "Scope",
+      "scopeValue": "All languages and tours"
+    },
+    "grid": {
+      "title": "Review grid",
+      "subtitle": "Filter by language and tour to see the feedback most relevant to your plan."
+    },
+    "filters": {
+      "languageLabel": "Language filter",
+      "tourLabel": "Tour filter",
+      "allLanguages": "All languages",
+      "allTours": "All tours",
+      "languages": {
+        "en": "English",
+        "fr": "French"
+      }
+    },
+    "results": "Showing {shown} of {total} reviews.",
+    "emptyState": "No reviews match the selected filters.",
+    "placeholderBadge": "Placeholder review",
+    "reviewCard": {
+      "tourLabel": "Tour"
+    },
+    "sources": {
+      "google": "Google",
+      "tripadvisor": "Tripadvisor",
+      "direct": "Direct"
+    }
+  },
+  "BlogIndexPage": {
+    "meta": {
+      "title": "Pragolem Blog | Prague Walking Tour Guides and Local Tips",
+      "description": "Read practical Prague travel tips, local history explainers, and tour planning guides from Pragolem's certified team."
+    },
+    "eyebrow": "Blog",
+    "title": "Prague Stories and Practical Travel Advice",
+    "subtitle": "Guides, comparisons, and local context to help you understand Prague before you walk it.",
+    "card": {
+      "byAuthor": "By {author}",
+      "readingTime": "{minutes} min read",
+      "inlineLink": "Preview article",
+      "cta": "Read article"
+    },
+    "empty": {
+      "title": "No blog posts are published yet.",
+      "description": "Please check back soon for new Prague travel content."
+    }
+  },
+  "ToursIndexPage": {
+    "meta": {
+      "title": "Prague Walking Tours | Pragolem Tours",
+      "description": "Browse all Pragolem walking tours in Prague. Free tours, private tours, and guided experiences in English and French."
+    },
+    "eyebrow": "Tours",
+    "title": "All Prague Walking Tours",
+    "subtitle": "Choose your route and explore Prague with a certified local guide.",
+    "card": {
+      "durationLabel": "Duration",
+      "languagesLabel": "Languages",
+      "groupSizeLabel": "Max group",
+      "priceType": {
+        "free": "Free tour",
+        "paid": "Private tour"
+      },
+      "language": {
+        "en": "English",
+        "fr": "French",
+        "es": "Spanish"
+      },
+      "cta": "View tour details"
+    },
+    "cta": {
+      "title": "Want a custom experience?",
+      "description": "Contact us for a private tour tailored to your group and interests.",
+      "primary": "Book now",
+      "secondary": "Contact us"
+    }
+  },
+  "TermsPage": {
+    "meta": {
+      "title": "Terms & Conditions | Pragolem Tours",
+      "description": "Read the terms and conditions for Pragolem Tours bookings, cancellations, and tour participation in Prague."
+    },
+    "eyebrow": "Legal",
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: {date}",
+    "sections": {
+      "general": {
+        "title": "1. General Information",
+        "body": "Pragolem Tours operates guided walking tours in Prague, Czech Republic. By booking a tour or using our website, you agree to the following terms and conditions. These terms apply to all services offered through pragolem.com."
+      },
+      "booking": {
+        "title": "2. Booking and Reservations",
+        "body": "Tour reservations are subject to availability and confirmation by our team. A booking request does not guarantee a confirmed spot until you receive a confirmation email. We reserve the right to modify or cancel tours due to weather, safety, or operational reasons. In such cases, we will offer an alternative date or a full refund."
+      },
+      "freeModel": {
+        "title": "3. Free Tour Payment Model",
+        "body": "Our free walking tours operate on a pay-what-you-wish basis. There is no fixed fee and no obligation to pay. Guests decide on a contribution at the end of the tour based on their experience and budget. This model relies on trust and mutual respect between guides and participants."
+      },
+      "privateTours": {
+        "title": "4. Private Tours and Pricing",
+        "body": "Private tour pricing is provided on a per-request basis and depends on group size, duration, and itinerary complexity. A quote will be sent after your booking request. Payment terms and cancellation conditions for private tours are communicated at the time of confirmation."
+      },
+      "cancellation": {
+        "title": "5. Cancellation Policy",
+        "body": "Free tour bookings can be cancelled at any time without charge. We appreciate advance notice so we can plan accordingly. Private tour cancellations must be communicated at least 48 hours before the scheduled start time. Late cancellations may be subject to a cancellation fee as outlined in your booking confirmation."
+      },
+      "liability": {
+        "title": "6. Liability",
+        "body": "Pragolem Tours takes reasonable precautions to ensure guest safety during all tours. However, participation in walking tours is at your own risk. We are not liable for personal injuries, theft, loss of property, or damages arising during the tour. Travel insurance is recommended for all participants."
+      },
+      "privacy": {
+        "title": "7. Privacy and Data",
+        "body": "Personal information collected through booking forms is used solely for tour organization and communication purposes. We do not sell or share your data with third parties. For questions about data handling, contact us at info@pragolem.com."
+      },
+      "intellectual": {
+        "title": "8. Intellectual Property",
+        "body": "All content on this website, including text, images, logos, and tour descriptions, is the property of Pragolem Tours. Reproduction or redistribution without written permission is prohibited."
+      },
+      "modifications": {
+        "title": "9. Modifications",
+        "body": "Pragolem Tours reserves the right to update these terms at any time. Changes take effect upon publication on this page. Continued use of our services after updates constitutes acceptance of the revised terms."
+      },
+      "contact": {
+        "title": "10. Contact",
+        "body": "For questions about these terms, reach us at info@pragolem.com or through the contact form on our website."
+      }
+    }
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to homepage",
+    "browseTours": "Browse tours"
+  },
+  "BlogDetailPage": {
+    "meta": {
+      "notFoundTitle": "Article not found | Pragolem Tours",
+      "notFoundDescription": "This blog article is not available in the selected language."
+    },
+    "breadcrumbs": {
+      "ariaLabel": "Breadcrumb",
+      "home": "Home",
+      "blog": "Blog"
+    },
+    "eyebrow": "Blog article",
+    "byline": {
+      "readingTime": "{minutes} min read",
+      "byAuthor": "By {author}"
+    },
+    "actions": {
+      "backToIndex": "Back to blog",
+      "switchLocale": {
+        "en": "Read in English",
+        "fr": "Read in French"
+      }
+    },
+    "relatedTours": {
+      "title": "Related tours in Prague",
+      "subtitle": "Continue this topic on foot with the tours connected to this article.",
+      "primaryCta": "Book a tour",
+      "empty": {
+        "title": "No related tours are listed yet.",
+        "description": "You can still book one of our main routes and get personalized recommendations."
+      },
+      "card": {
+        "duration": "Duration: {value}",
+        "priceType": {
+          "free": "Free tour",
+          "paid": "Private tour"
+        },
+        "cta": "View tour"
+      }
+    }
+  }
+}

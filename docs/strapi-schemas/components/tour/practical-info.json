@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_tour_practical_infos",
+  "info": {
+    "displayName": "Practical Info",
+    "icon": "information",
+    "description": "Practical visitor information for a tour"
+  },
+  "attributes": {
+    "whatToBring": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "shared.list-item"
+    },
+    "accessibility": {
+      "type": "text",
+      "required": true
+    },
+    "weatherPolicy": {
+      "type": "text",
+      "required": true
+    },
+    "childFriendly": {
+      "type": "text",
+      "required": true
+    },
+    "tipSuggestion": {
+      "type": "text",
+      "required": true
+    },
+    "paymentMethods": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "shared.list-item"
+    }
+  }
+}

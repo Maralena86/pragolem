@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "Review",
+    "description": "Customer reviews from Google, TripAdvisor, or direct submissions"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": true
+    },
+    "authorName": {
+      "type": "string",
+      "required": true
+    },
+    "rating": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 5
+    },
+    "text": {
+      "type": "text",
+      "required": true,
+      "pluginOptions": {
+        "i18n": { "localized": true }
+      }
+    },
+    "source": {
+      "type": "enumeration",
+      "enum": ["google", "tripadvisor", "direct"],
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "isRealReview": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "tour": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tour.tour"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_keywords",
+  "info": {
+    "displayName": "Keyword",
+    "icon": "hashtag",
+    "description": "Single SEO keyword entry for use in repeatable lists"
+  },
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

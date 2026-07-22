@@ -1,0 +1,620 @@
+{
+  "HomePage": {
+    "title": "Free Tour Prague en Français",
+    "subtitle": "Découvrez Prague avec des guides certifiés en français et en anglais.",
+    "meta": {
+      "title": "Free Tour Prague Français | Pragolem Tours",
+      "description": "Réservez une visite guidée gratuite à Prague avec des guides certifiés. Vieille Ville, Château de Prague et visites privées sur mesure."
+    },
+    "hero": {
+      "badge": "Guides locaux les mieux notés",
+      "primaryCta": "Réserver votre free tour",
+      "secondaryCta": "Voir toutes les visites",
+      "ratingLabel": "Note moyenne",
+      "reviewsLabel": "Avis publiés",
+      "toursLabel": "Visites disponibles"
+    },
+    "sections": {
+      "tours": {
+        "title": "Choisissez votre visite de Prague",
+        "subtitle": "Chaque parcours est conçu pour bien démarrer votre séjour avec un guide local."
+      },
+      "howItWorks": {
+        "title": "Comment ça marche",
+        "subtitle": "Réservation rapide, points de rendez-vous clairs et visite à prix libre."
+      },
+      "guides": {
+        "title": "Rencontrez nos guides",
+        "subtitle": "Pragolem est porté par des guides certifiés, passionnés d'histoire et de pédagogie."
+      },
+      "reviews": {
+        "title": "Avis voyageurs",
+        "subtitle": "Retours récents de visiteurs qui ont découvert Prague avec nous."
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "subtitle": "Informations essentielles sur la réservation, le déroulé des visites et la logistique."
+      },
+      "finalCta": {
+        "title": "Prêt à visiter Prague avec nous ?",
+        "subtitle": "Choisissez votre date maintenant ou écrivez-nous pour trouver le meilleur parcours."
+      }
+    },
+    "tourCard": {
+      "durationLabel": "Durée",
+      "languagesLabel": "Langues",
+      "groupSizeLabel": "Taille max du groupe",
+      "guideLabel": "Guide",
+      "fallbackGuide": "Guide Pragolem",
+      "cta": "Voir la visite",
+      "priceType": {
+        "free": "Visite gratuite",
+        "paid": "Visite privée"
+      },
+      "language": {
+        "en": "Anglais",
+        "fr": "Français",
+        "es": "Espagnol"
+      }
+    },
+    "how": {
+      "stepLabel": "Étape",
+      "step1": {
+        "title": "Choisissez votre parcours",
+        "body": "Sélectionnez la Vieille Ville, le Château de Prague ou une visite privée selon vos envies."
+      },
+      "step2": {
+        "title": "Réservez votre place",
+        "body": "Réservation en moins d'une minute avec point de rendez-vous et horaires confirmés."
+      },
+      "step3": {
+        "title": "Profitez de la visite",
+        "body": "Retrouvez votre guide, découvrez Prague en profondeur, puis donnez le montant que vous jugez juste."
+      }
+    },
+    "guides": {
+      "languagesLabel": "Langues de visite",
+      "yearsInPrague": "{count} ans à Prague"
+    },
+    "reviews": {
+      "aggregate": "Note de {rating}/5 sur {count} avis",
+      "placeholderBadge": "Avis provisoire",
+      "cta": "Voir tous les avis",
+      "source": {
+        "google": "Google",
+        "tripadvisor": "Tripadvisor",
+        "direct": "Direct"
+      }
+    },
+    "faq": {
+      "cta": "Voir la FAQ complète"
+    },
+    "finalCta": {
+      "primaryCta": "Réserver",
+      "secondaryCta": "Nous contacter"
+    }
+  },
+  "TourPage": {
+    "meta": {
+      "notFoundTitle": "Visite introuvable | Pragolem Tours",
+      "notFoundDescription": "Cette page de visite n'est pas disponible dans cette langue."
+    },
+    "priceType": {
+      "free": "Visite gratuite",
+      "paid": "Visite privee"
+    },
+    "languages": {
+      "en": "Anglais",
+      "fr": "Francais",
+      "es": "Espagnol"
+    },
+    "breadcrumbs": {
+      "ariaLabel": "Fil d'Ariane",
+      "home": "Accueil",
+      "tours": "Visites"
+    },
+    "hero": {
+      "primaryCta": "Reserver cette visite",
+      "secondaryCta": "Voir toutes les visites",
+      "durationLabel": "Duree",
+      "languagesLabel": "Langues",
+      "groupSizeLabel": "Taille max du groupe",
+      "meetingPointLabel": "Point de rendez-vous",
+      "switchLocale": {
+        "en": "Version anglaise",
+        "fr": "Version francaise"
+      }
+    },
+    "sections": {
+      "description": "Description de la visite",
+      "itinerary": "Itineraire",
+      "practicalInfo": "Infos pratiques",
+      "pricing": "Explication du prix",
+      "guide": "Apercu du guide",
+      "reviews": "Avis voyageurs",
+      "relatedTours": "Visites recommandees",
+      "faq": "FAQ de la visite"
+    },
+    "itinerary": {
+      "stopLabel": "Etape {order}",
+      "duration": "{minutes} min"
+    },
+    "practical": {
+      "whatToBring": "A apporter",
+      "meetingPoint": "Point de rendez-vous",
+      "meetingPointDescription": "Comment nous trouver",
+      "accessibility": "Accessibilite",
+      "weatherPolicy": "Politique meteo",
+      "childFriendly": "Adaptation aux enfants",
+      "paymentMethods": "Moyens de paiement acceptes",
+      "mapCta": "Ouvrir dans Google Maps"
+    },
+    "pricing": {
+      "freeTitle": "Modele a prix libre",
+      "freeDescription": "Cette visite est sans billet fixe a l'avance. Vous decidez du montant a la fin selon votre experience et votre budget.",
+      "freeTipLabel": "Repere habituel de contribution",
+      "freeSchemaOffer": "Contribution libre a la fin de la visite.",
+      "paidTitle": "Format prive a prix fixe",
+      "paidDescription": "Cette visite privee est proposee sur devis selon la taille du groupe, la duree et la complexite du parcours.",
+      "paidCta": "Demander les details de reservation"
+    },
+    "guide": {
+      "languagesLabel": "Langues de visite",
+      "yearsInPrague": "{count} ans a Prague",
+      "fallback": "Guide certifie Pragolem"
+    },
+    "reviews": {
+      "ratingSummary": "Note de {rating}/5 sur {count} avis",
+      "noReviews": "Aucun avis n'est encore publie pour cette visite dans cette langue.",
+      "placeholderBadge": "Avis provisoire",
+      "viewAll": "Voir tous les avis",
+      "source": {
+        "google": "Google",
+        "tripadvisor": "Tripadvisor",
+        "direct": "Direct"
+      }
+    },
+    "relatedTours": {
+      "durationLabel": "Duree",
+      "empty": "Aucune visite liee n'est disponible pour le moment.",
+      "cta": "Voir les details"
+    },
+    "faq": {
+      "empty": "Aucune question frequente n'est disponible pour ce format de visite.",
+      "viewAll": "Voir la FAQ complete"
+    },
+    "schema": {
+      "touristType": "Premiers sejours, passionnes d'histoire, familles et voyageurs solo"
+    }
+  },
+  "LanguageSwitcher": {
+    "label": "Langue",
+    "en": "EN",
+    "fr": "FR"
+  },
+  "Header": {
+    "brand": "Pragolem Tours",
+    "bookingCta": "Réserver",
+    "openMenu": "Ouvrir le menu",
+    "menuTitle": "Menu",
+    "nav": {
+      "tours": "Visites",
+      "about": "À propos",
+      "reviews": "Avis",
+      "faq": "FAQ",
+      "contact": "Contact"
+    }
+  },
+  "Footer": {
+    "exploreTitle": "Explorer",
+    "contactTitle": "Contact & Légal",
+    "socialTitle": "Réseaux sociaux",
+    "links": {
+      "tours": "Visites",
+      "about": "À propos",
+      "reviews": "Avis",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "blog": "Blog",
+      "booking": "Réservation",
+      "terms": "Conditions générales"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "facebook": "Facebook",
+      "whatsapp": "WhatsApp"
+    },
+    "copyright": "© {year} Pragolem Tours. Tous droits réservés."
+  },
+  "BookingPage": {
+    "meta": {
+      "title": "Réserver une visite à Prague | Pragolem Tours",
+      "description": "Réservez votre free tour à Prague en français ou en anglais. Choisissez votre parcours, date et horaire rapidement."
+    },
+    "eyebrow": "Réservation",
+    "title": "Réservez Votre Visite",
+    "subtitle": "Remplissez ce formulaire et nous confirmerons votre place avec tous les détails pratiques.",
+    "formTitle": "Demande de réservation",
+    "formSubtitle": "Les champs requis nous aident à organiser correctement votre visite.",
+    "sidebar": {
+      "noticeTitle": "Avant d'envoyer",
+      "privateTourHint": "Pour les groupes de plus de 6 personnes, nous recommandons un format privé sur mesure.",
+      "privateTourCta": "Demander une visite privée",
+      "contactTitle": "Besoin d'une réponse rapide ?"
+    },
+    "form": {
+      "tourLabel": "Choix de la visite",
+      "tourPlaceholder": "Sélectionner une visite",
+      "tourPriceType": {
+        "free": "Visite gratuite",
+        "paid": "Visite privée"
+      },
+      "dateLabel": "Date",
+      "timeSlotLabel": "Créneau horaire",
+      "timeSlotPlaceholder": "Sélectionner un horaire",
+      "timeSlots": {
+        "slot0900": "09:00",
+        "slot1100": "11:00",
+        "slot1400": "14:00",
+        "slot1700": "17:00"
+      },
+      "participantsLabel": "Participants",
+      "participantsPlaceholder": "Sélectionner la taille du groupe",
+      "participantsCount": "{count} participant(s)",
+      "participantsPrivateNote": "Pour les groupes de plus de 6 participants, merci de <contactLink>nous contacter</contactLink> pour une visite privée.",
+      "languageLabel": "Langue",
+      "languagePlaceholder": "Sélectionner une langue",
+      "languageOptions": {
+        "en": "Anglais",
+        "fr": "Français",
+        "es": "Espagnol"
+      },
+      "fullNameLabel": "Nom complet",
+      "fullNamePlaceholder": "Votre nom complet",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@exemple.com",
+      "phoneLabel": "Téléphone (optionnel)",
+      "phonePlaceholder": "+420 ...",
+      "specialRequestsLabel": "Demandes particulières",
+      "specialRequestsPlaceholder": "Indiquez les informations utiles avant la visite.",
+      "termsLabel": "J'accepte les conditions de réservation et je comprends que la demande doit être confirmée.",
+      "submit": "Envoyer la demande",
+      "submitPending": "Envoi...",
+      "successToast": "Demande envoyée. Nous vous contactons rapidement.",
+      "validation": {
+        "requiredTour": "Veuillez sélectionner une visite.",
+        "requiredDate": "Veuillez sélectionner une date.",
+        "pastDate": "Veuillez choisir la date du jour ou une date future.",
+        "requiredTimeSlot": "Veuillez sélectionner un horaire.",
+        "requiredParticipants": "Veuillez sélectionner le nombre de participants.",
+        "requiredLanguage": "Veuillez sélectionner une langue.",
+        "requiredFullName": "Veuillez saisir votre nom complet.",
+        "fullNameTooShort": "Le nom doit contenir au moins 2 caractères.",
+        "requiredEmail": "Veuillez saisir votre adresse email.",
+        "invalidEmail": "Veuillez saisir une adresse email valide.",
+        "termsRequired": "Vous devez accepter les conditions avant l'envoi."
+      }
+    }
+  },
+  "ContactPage": {
+    "meta": {
+      "title": "Contacter Pragolem Tours",
+      "description": "Contactez Pragolem Tours pour vos questions, demandes privées ou assistance rapide par téléphone, WhatsApp ou email."
+    },
+    "eyebrow": "Contact",
+    "title": "Parlez Avec Notre Équipe",
+    "subtitle": "Envoyez un message ou utilisez les liens directs pour une réponse plus rapide.",
+    "formTitle": "Envoyez-nous un message",
+    "formSubtitle": "Nous répondons rapidement par email ou WhatsApp.",
+    "quickActions": {
+      "title": "Contact rapide",
+      "description": "Besoin d'aide immédiate ? Utilisez l'un de ces canaux.",
+      "call": "Appeler",
+      "whatsapp": "Ouvrir WhatsApp"
+    },
+    "social": {
+      "title": "Réseaux sociaux",
+      "networks": {
+        "instagram": "Instagram",
+        "facebook": "Facebook",
+        "whatsapp": "WhatsApp"
+      }
+    },
+    "map": {
+      "title": "Carte du point de rendez-vous",
+      "description": "Emplacement de carte en attente de l'intégration embed finale.",
+      "fallbackName": "Point de rendez-vous Pragolem",
+      "fallbackAddress": "Prague, République tchèque",
+      "placeholderNote": "Utilisez le lien ci-dessous pour ouvrir la carte statique actuelle.",
+      "openStaticLink": "Ouvrir le lien de carte"
+    },
+    "form": {
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vous@exemple.com",
+      "subjectLabel": "Sujet",
+      "subjectPlaceholder": "Comment pouvons-nous vous aider ?",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Écrivez votre message ici...",
+      "submit": "Envoyer le message",
+      "submitPending": "Envoi...",
+      "successToast": "Message envoyé. Nous revenons vers vous rapidement.",
+      "validation": {
+        "requiredName": "Veuillez saisir votre nom.",
+        "nameTooShort": "Le nom doit contenir au moins 2 caractères.",
+        "requiredEmail": "Veuillez saisir votre adresse email.",
+        "invalidEmail": "Veuillez saisir une adresse email valide.",
+        "requiredSubject": "Veuillez saisir un sujet.",
+        "subjectTooShort": "Le sujet doit contenir au moins 3 caractères.",
+        "requiredMessage": "Veuillez saisir votre message.",
+        "messageTooShort": "Le message doit contenir au moins 10 caractères."
+      }
+    }
+  },
+  "AboutPage": {
+    "meta": {
+      "title": "A propos de Pragolem Tours | Guides locaux a Prague",
+      "description": "Decouvrez l histoire de Pragolem, les profils de Lucas et Nathan, et la philosophie de nos visites a Prague."
+    },
+    "eyebrow": "A propos de Pragolem",
+    "title": "Un projet de guides construit a Prague",
+    "subtitle": "Pragolem a ete cree par deux guides certifies qui voulaient combiner profondeur historique, clarte pratique et contact humain sur chaque parcours.",
+    "story": {
+      "title": "Notre histoire",
+      "paragraph1": "Pragolem est ne d un constat simple: beaucoup de visites a Prague etaient soit trop superficielles, soit trop rigides. Nous voulions un format qui donne du contexte sans perdre la dimension conviviale.",
+      "paragraph2": "Aujourd hui nous guidons en francais et en anglais sur la Vieille Ville, le secteur du Chateau et des formats prives. Chaque itineraire est pense pour offrir orientation concrete et comprehension de l histoire tcheque."
+    },
+    "guides": {
+      "title": "Lucas et Nathan",
+      "subtitle": "Les deux cofondateurs qui guident les visites Pragolem sur le terrain.",
+      "empty": "Les profils des guides sont temporairement indisponibles.",
+      "languagesLabel": "Langues de visite",
+      "yearsInPrague": "{count} ans a Prague"
+    },
+    "philosophy": {
+      "title": "Notre facon de guider",
+      "body": "Nos visites suivent trois principes qui orientent chaque explication, recommandation et choix d itineraire.",
+      "principles": {
+        "accuracy": {
+          "title": "Rigueur historique",
+          "body": "Nous privilegions des faits verifies plutot que des raccourcis pour garantir un contenu fiable."
+        },
+        "human": {
+          "title": "Approche humaine",
+          "body": "Nous adaptons le rythme et le niveau de detail au groupe present, pas a un script fige."
+        },
+        "clarity": {
+          "title": "Clarte pratique",
+          "body": "Nous donnons des reperes utiles et des conseils locaux actionnables apres la visite."
+        }
+      }
+    },
+    "media": {
+      "title": "Mention media",
+      "description": "Lisez une interview de Lucas et Nathan sur les standards modernes de visites guidees a Prague.",
+      "linkLabel": "Lire l interview",
+      "href": "https://www.freewalkingtour.com/prague/",
+      "bookingCta": "Reserver une visite"
+    }
+  },
+  "FaqPage": {
+    "meta": {
+      "title": "FAQ Pragolem | Free tours, visites privees et reservation",
+      "description": "Consultez toutes les reponses sur nos free tours, visites privees, logistique, accessibilite et reservation a Prague."
+    },
+    "eyebrow": "FAQ",
+    "title": "Questions frequentes",
+    "subtitle": "Les questions les plus frequentes, regroupees par categorie pour une lecture rapide.",
+    "categories": {
+      "free-tours": {
+        "title": "Modele free tour",
+        "description": "Fonctionnement du prix libre et points a connaitre avant de reserver."
+      },
+      "tours": {
+        "title": "Logistique des visites",
+        "description": "Duree, points de rendez-vous, meteo et preparation pratique."
+      },
+      "private-tours": {
+        "title": "Visites privees",
+        "description": "Formats sur mesure, logique tarifaire et flexibilite des itineraires."
+      },
+      "pragolem": {
+        "title": "A propos de Pragolem",
+        "description": "Certifications des guides, equipe et modalites d annulation ou report."
+      }
+    },
+    "cta": {
+      "title": "Une question supplementaire ?",
+      "description": "Ecrivez-nous et nous vous orienterons vers le format le plus adapte a votre sejour.",
+      "primary": "Reserver maintenant",
+      "secondary": "Nous contacter"
+    }
+  },
+  "ReviewsPage": {
+    "meta": {
+      "title": "Avis Pragolem | Retours verifies de visites a Prague",
+      "description": "Consultez les avis voyageurs Pragolem a Prague, filtrez par langue et visite, et visualisez la note moyenne globale."
+    },
+    "eyebrow": "Avis",
+    "title": "Avis voyageurs",
+    "subtitle": "Parcourez les retours des participants aux visites Pragolem a Prague.",
+    "summary": {
+      "ratingLabel": "Note moyenne",
+      "countLabel": "Avis publies",
+      "scopeLabel": "Perimetre",
+      "scopeValue": "Toutes langues et toutes visites"
+    },
+    "grid": {
+      "title": "Grille d avis",
+      "subtitle": "Filtrez par langue et par visite pour cibler les retours les plus utiles."
+    },
+    "filters": {
+      "languageLabel": "Filtre langue",
+      "tourLabel": "Filtre visite",
+      "allLanguages": "Toutes les langues",
+      "allTours": "Toutes les visites",
+      "languages": {
+        "en": "Anglais",
+        "fr": "Francais"
+      }
+    },
+    "results": "{shown} avis affiches sur {total}.",
+    "emptyState": "Aucun avis ne correspond aux filtres selectionnes.",
+    "placeholderBadge": "Avis placeholder",
+    "reviewCard": {
+      "tourLabel": "Visite"
+    },
+    "sources": {
+      "google": "Google",
+      "tripadvisor": "Tripadvisor",
+      "direct": "Direct"
+    }
+  },
+  "BlogIndexPage": {
+    "meta": {
+      "title": "Blog Pragolem | Conseils visites guidees a Prague",
+      "description": "Lisez nos conseils pratiques pour visiter Prague, des explications historiques claires et des comparatifs de formats de visite."
+    },
+    "eyebrow": "Blog",
+    "title": "Conseils et histoires pour visiter Prague",
+    "subtitle": "Articles pratiques pour mieux comprendre la ville avant votre visite guidee.",
+    "card": {
+      "byAuthor": "Par {author}",
+      "readingTime": "{minutes} min de lecture",
+      "inlineLink": "Apercu de l article",
+      "cta": "Lire l article"
+    },
+    "empty": {
+      "title": "Aucun article n est encore publie.",
+      "description": "Revenez bientot pour voir nos prochains contenus sur Prague."
+    }
+  },
+  "ToursIndexPage": {
+    "meta": {
+      "title": "Visites guidees a Prague | Pragolem Tours",
+      "description": "Decouvrez toutes les visites guidees Pragolem a Prague. Free tours, visites privees et experiences guidees en francais et en anglais."
+    },
+    "eyebrow": "Visites",
+    "title": "Toutes nos visites a Prague",
+    "subtitle": "Choisissez votre parcours et explorez Prague avec un guide local certifie.",
+    "card": {
+      "durationLabel": "Duree",
+      "languagesLabel": "Langues",
+      "groupSizeLabel": "Groupe max",
+      "priceType": {
+        "free": "Visite gratuite",
+        "paid": "Visite privee"
+      },
+      "language": {
+        "en": "Anglais",
+        "fr": "Francais",
+        "es": "Espagnol"
+      },
+      "cta": "Voir les details"
+    },
+    "cta": {
+      "title": "Envie d une experience sur mesure ?",
+      "description": "Contactez-nous pour une visite privee adaptee a votre groupe et vos centres d interet.",
+      "primary": "Reserver",
+      "secondary": "Nous contacter"
+    }
+  },
+  "TermsPage": {
+    "meta": {
+      "title": "Conditions generales | Pragolem Tours",
+      "description": "Consultez les conditions generales de Pragolem Tours pour les reservations, annulations et participation aux visites a Prague."
+    },
+    "eyebrow": "Legal",
+    "title": "Conditions generales",
+    "lastUpdated": "Derniere mise a jour : {date}",
+    "sections": {
+      "general": {
+        "title": "1. Informations generales",
+        "body": "Pragolem Tours propose des visites guidees a pied a Prague, Republique tcheque. En reservant une visite ou en utilisant notre site, vous acceptez les presentes conditions generales. Ces conditions s appliquent a tous les services proposes via pragolem.com."
+      },
+      "booking": {
+        "title": "2. Reservation",
+        "body": "Les reservations sont soumises a disponibilite et confirmation par notre equipe. Une demande de reservation ne garantit pas une place confirmee tant que vous n avez pas recu un email de confirmation. Nous nous reservons le droit de modifier ou d annuler des visites pour des raisons meteorologiques, de securite ou operationnelles. Dans ce cas, une date alternative ou un remboursement complet vous sera propose."
+      },
+      "freeModel": {
+        "title": "3. Modele de visite gratuite",
+        "body": "Nos free tours fonctionnent selon le principe du prix libre. Il n y a pas de tarif fixe et aucune obligation de paiement. Les participants decident de leur contribution a la fin de la visite en fonction de leur experience et de leur budget. Ce modele repose sur la confiance et le respect mutuel entre guides et visiteurs."
+      },
+      "privateTours": {
+        "title": "4. Visites privees et tarification",
+        "body": "Le prix des visites privees est communique sur devis et depend de la taille du groupe, de la duree et de la complexite de l itineraire. Un devis vous sera envoye apres votre demande de reservation. Les conditions de paiement et d annulation pour les visites privees sont communiquees lors de la confirmation."
+      },
+      "cancellation": {
+        "title": "5. Politique d annulation",
+        "body": "Les reservations de free tours peuvent etre annulees a tout moment sans frais. Nous apprecions un preavis pour mieux organiser les groupes. Les annulations de visites privees doivent etre communiquees au moins 48 heures avant l heure prevue. Les annulations tardives peuvent etre soumises a des frais comme indique dans la confirmation de reservation."
+      },
+      "liability": {
+        "title": "6. Responsabilite",
+        "body": "Pragolem Tours prend des precautions raisonnables pour assurer la securite des participants. Cependant, la participation aux visites a pied se fait a vos propres risques. Nous ne sommes pas responsables des blessures, vols, pertes de biens ou dommages survenant pendant la visite. Une assurance voyage est recommandee pour tous les participants."
+      },
+      "privacy": {
+        "title": "7. Donnees personnelles",
+        "body": "Les informations personnelles collectees via les formulaires de reservation sont utilisees uniquement pour l organisation des visites et la communication. Nous ne vendons ni ne partageons vos donnees avec des tiers. Pour toute question sur la gestion des donnees, contactez-nous a info@pragolem.com."
+      },
+      "intellectual": {
+        "title": "8. Propriete intellectuelle",
+        "body": "Tout le contenu de ce site, y compris textes, images, logos et descriptions de visites, est la propriete de Pragolem Tours. Toute reproduction ou redistribution sans autorisation ecrite est interdite."
+      },
+      "modifications": {
+        "title": "9. Modifications",
+        "body": "Pragolem Tours se reserve le droit de mettre a jour ces conditions a tout moment. Les modifications prennent effet des leur publication sur cette page. L utilisation continue de nos services apres les mises a jour vaut acceptation des conditions revisees."
+      },
+      "contact": {
+        "title": "10. Contact",
+        "body": "Pour toute question relative a ces conditions, contactez-nous a info@pragolem.com ou via le formulaire de contact de notre site."
+      }
+    }
+  },
+  "NotFoundPage": {
+    "title": "Page introuvable",
+    "description": "La page que vous cherchez n existe pas ou a ete deplacee.",
+    "backHome": "Retour a l accueil",
+    "browseTours": "Voir les visites"
+  },
+  "BlogDetailPage": {
+    "meta": {
+      "notFoundTitle": "Article introuvable | Pragolem Tours",
+      "notFoundDescription": "Cet article de blog n est pas disponible dans la langue selectionnee."
+    },
+    "breadcrumbs": {
+      "ariaLabel": "Fil d Ariane",
+      "home": "Accueil",
+      "blog": "Blog"
+    },
+    "eyebrow": "Article de blog",
+    "byline": {
+      "readingTime": "{minutes} min de lecture",
+      "byAuthor": "Par {author}"
+    },
+    "actions": {
+      "backToIndex": "Retour au blog",
+      "switchLocale": {
+        "en": "Version anglaise",
+        "fr": "Version francaise"
+      }
+    },
+    "relatedTours": {
+      "title": "Visites recommandees a Prague",
+      "subtitle": "Prolongez cet article avec une visite guidee liee a ce sujet.",
+      "primaryCta": "Reserver une visite",
+      "empty": {
+        "title": "Aucune visite liee n est disponible pour le moment.",
+        "description": "Vous pouvez quand meme reserver un parcours principal et recevoir des recommandations adaptees."
+      },
+      "card": {
+        "duration": "Duree : {value}",
+        "priceType": {
+          "free": "Visite gratuite",
+          "paid": "Visite privee"
+        },
+        "cta": "Voir la visite"
+      }
+    }
+  }
+}

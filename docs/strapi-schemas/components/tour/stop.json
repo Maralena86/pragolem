@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_tour_stops",
+  "info": {
+    "displayName": "Tour Stop",
+    "icon": "walk",
+    "description": "Single stop in a tour itinerary"
+  },
+  "attributes": {
+    "order": {
+      "type": "integer",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "durationMinutes": {
+      "type": "integer"
+    }
+  }
+}
