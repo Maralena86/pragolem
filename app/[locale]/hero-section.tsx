@@ -1,6 +1,7 @@
 import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import type { Tour } from "@/lib/types/tour";
 
@@ -18,6 +19,13 @@ export function HeroSection({ t, aggregateRating, tourCount }: HeroSectionProps)
   return (
     <section className="grid gap-6 border-b pb-10 md:grid-cols-[1.1fr_0.9fr] md:items-end">
       <div className="space-y-4">
+        <Image
+                        src={"/images/pragolem.webp"}
+                        alt={""}
+                        width={200}
+                        height={140}
+                        
+                      />
         <Badge variant="outline">{t("hero.badge")}</Badge>
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">{t("title")}</h1>
         <p className="max-w-2xl text-muted-foreground">{t("subtitle")}</p>

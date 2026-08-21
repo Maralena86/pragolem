@@ -25,7 +25,7 @@ A strong point of this Prague free tour is that we connect local stories to broa
 
 This route works well for first-time visitors, solo travelers, couples, and families with teens who enjoy stories. Because it is a pay-what-you-wish experience, you decide the value at the end based on your experience and budget. If you are comparing Prague guided tours and want a warm, intelligent introduction to the city center, this is the free walking tour Prague guests consistently recommend.`,
       heroImage: {
-        url: "/images/placeholders/old-town-jewish-quarter.jpg",
+        url: "/images/tours/jan_hus_brown.webp",
         alt: "Old Town Square and rooftops near Prague's historic center",
       },
       duration: "PT3H",
@@ -179,7 +179,7 @@ L'une des forces de Pragolem est de relier les anecdotes de rue aux grands épis
 
 Ce free tour Prague français convient tres bien aux premiers séjours, aux couples, aux voyageurs solo et aux familles qui aiment les récits incarnés. Le principe est simple: visite guidée gratuite a prix libre. Vous donnez ce qui vous semble juste selon votre satisfaction et votre budget. Si vous comparez les options de visite guidée gratuite à Prague, cette balade est une excellente porte d'entrée pour comprendre la ville en profondeur, dès le premier jour.`,
       heroImage: {
-        url: "/images/placeholders/old-town-jewish-quarter.jpg",
+        url: "/images/tours/jan_hus_brown.webp",
         alt: "Place de la Vieille Ville et toits historiques de Prague",
       },
       duration: "PT3H",
@@ -334,7 +334,7 @@ At St. Vitus Cathedral's exterior and open sections, we focus on symbolism and s
 
 Because the experience is pay-what-you-wish, it stays flexible and traveler-friendly. You choose your contribution at the end based on value, interest, and budget. This Prague Castle walking tour is especially good for visitors who like rich storytelling, elevated viewpoints, and practical tips on where to eat or continue walking in Lesser Town. If you want a high-value free tour Prague travelers recommend for depth and clarity, this is the route to book.`,
       heroImage: {
-        url: "/images/placeholders/prague-castle-lesser-town.jpg",
+        url: "/images/tours/sv_vit_brown.webp",
         alt: "View of Prague Castle above Lesser Town rooftops",
       },
       duration: "PT3H",
@@ -488,7 +488,7 @@ Devant la cathédrale Saint-Guy et les zones gratuites, nous abordons la questio
 
 Comme pour tous les free tours Pragolem, vous décidez du montant a la fin selon votre satisfaction. Ce format convient tres bien aux voyageurs curieux qui veulent un guide francophone à Prague, des histoires solides, des points de vue superbes et des recommandations concrètes pour la suite du séjour. Si vous cherchez une visite du Château de Prague en français qui allie ambiance, rigueur et accessibilité, cet itinéraire est un excellent choix.`,
       heroImage: {
-        url: "/images/placeholders/prague-castle-lesser-town.jpg",
+        url: "/images/tours/sv_vit_brown.webp",
         alt: "Vue du Château de Prague depuis les hauteurs de Malá Strana",
       },
       duration: "PT3H",
@@ -642,7 +642,7 @@ Because this is custom work, we can include add-ons like museum entry planning, 
 
 If you are searching for private guided tours in Prague with genuine local expertise, Pragolem offers a practical and personal approach. Pricing is fixed, communication is direct, and each itinerary is built with care rather than copied from a template. Send us your dates, group size, and priorities, and we will prepare a proposal that fits your trip goals.`,
       heroImage: {
-        url: "/images/placeholders/private-guided-tour-prague.jpg",
+        url: "/images/tours/tour_private.webp",
         alt: "Private group with guide overlooking Prague from a terrace",
       },
       duration: "PT3H",
@@ -782,7 +782,7 @@ Les visites privées permettent aussi d'ajouter des options pratiques: conseils 
 
 Si vous recherchez une visite guidée privée à Prague en français, Pragolem propose une approche humaine et rigoureuse: guides certifiés, contenu sérieux, adaptation réelle au groupe et communication directe. Envoyez-nous vos attentes et nous préparons un parcours cohérent avec votre agenda. C'est la solution idéale pour les voyageurs qui veulent gagner du temps, éviter les parcours standardisés et vivre Prague avec un regard local.`,
       heroImage: {
-        url: "/images/placeholders/private-guided-tour-prague.jpg",
+        url: "/images/tours/tour_private.webp",
         alt: "Groupe privé accompagné d'un guide dans le centre historique de Prague",
       },
       duration: "PT3H",
