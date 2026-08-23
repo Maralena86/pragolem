@@ -244,6 +244,7 @@
     },
     "form": {
       "tourLabel": "Tour selection",
+      "errorToast": "An error occurred. Please try again.",
       "tourPlaceholder": "Select a tour",
       "tourPriceType": {
         "free": "Free tour",

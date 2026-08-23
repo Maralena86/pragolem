@@ -32,8 +32,8 @@ export const siteConfigData: SiteConfig = {
       },
     ],
     bookingNotice: {
-      en: "[PLACEHOLDER] Booking confirmation details will be sent by email or WhatsApp.",
-      fr: "[PLACEHOLDER] Les détails de confirmation sont envoyés par email ou WhatsApp.",
+      en: "Booking confirmation details will be sent by email or WhatsApp.",
+      fr: "Les détails de confirmation sont envoyés par email ou WhatsApp.",
     },
   },
   relationships: {},

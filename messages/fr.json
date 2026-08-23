@@ -243,6 +243,7 @@
       "contactTitle": "Besoin d'une réponse rapide ?"
     },
     "form": {
+      "errorToast": "Une erreur est survenue. Merci de réessayer.",
       "tourLabel": "Choix de la visite",
       "tourPlaceholder": "Sélectionner une visite",
       "tourPriceType": {
