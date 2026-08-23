@@ -1,6 +1,7 @@
 import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import {
   Card,
   CardContent,
@@ -40,6 +41,13 @@ export default function ToursGridSection({
                   {t(`card.priceType.${priceKey}`)}
                 </Badge>
               </div>
+              <Image
+                              src={tour.attributes.heroImage.url}
+                              alt={tour.attributes.heroImage.alt}
+                              width={300}
+                              height={140}
+                              
+                            />
               <CardTitle className="mt-2">{tour.attributes.title}</CardTitle>
               <CardDescription>{tour.attributes.shortDescription}</CardDescription>
             </CardHeader>

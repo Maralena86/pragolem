@@ -273,6 +273,7 @@ export default async function BlogDetailPage({
                 {relatedTours.map((tour) => (
                   <Card key={tour.id}>
                     <CardHeader>
+                      
                       <CardTitle>{tour.attributes.title}</CardTitle>
                       <CardDescription>{tour.attributes.shortDescription}</CardDescription>
                     </CardHeader>

@@ -52,14 +52,14 @@ export function ToursSection({
 							>
 								{t(`tourCard.priceType.${tour.attributes.priceType}`)}
 							</Badge>
-							<CardTitle>{tour.attributes.title}</CardTitle>
 							<Image
 								src={tour.attributes.heroImage.url}
 								alt={tour.attributes.heroImage.alt}
-                width={300}
+                width={330}
                 height={140}
 								
 							/>
+							<CardTitle>{tour.attributes.title}</CardTitle>
 							<CardDescription>
 								{tour.attributes.shortDescription}
 							</CardDescription>
