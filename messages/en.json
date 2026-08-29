@@ -1,14 +1,14 @@
 {
   "HomePage": {
-    "title": "Free Walking Tours in Prague",
+    "title": "Walking Tours in Prague",
     "subtitle": "Discover Prague with certified local guides in English and French.",
     "meta": {
-      "title": "Free Walking Tour Prague | Pragolem Tours",
-      "description": "Book a top-rated free walking tour in Prague with certified local guides. Explore Old Town, Prague Castle, and private tour options."
+      "title": "Walking Tour Prague | Pragolem Tours",
+      "description": "Book a top-rated walking walking tour in Prague with certified local guides. Explore Old Town, Prague Castle, and private tour options."
     },
     "hero": {
       "badge": "Top-rated local guides",
-      "primaryCta": "Reserve your free tour",
+      "primaryCta": "Reserve your walking tour",
       "secondaryCta": "See all tours",
       "ratingLabel": "Average rating",
       "reviewsLabel": "Published reviews",
@@ -21,7 +21,7 @@
       },
       "howItWorks": {
         "title": "How it works",
-        "subtitle": "Simple booking, clear meeting points, and pay-what-you-wish free tours."
+        "subtitle": "Simple booking and clear meeting points"
       },
       "guides": {
         "title": "Meet the guides",
@@ -48,7 +48,7 @@
       "fallbackGuide": "Pragolem Guide",
       "cta": "View tour details",
       "priceType": {
-        "free": "Free tour",
+        "free": "Walking tour",
         "paid": "Private tour"
       },
       "language": {
@@ -100,7 +100,7 @@
       "notFoundDescription": "The requested tour page is not available in this language."
     },
     "priceType": {
-      "free": "Free tour",
+      "free": "Walking tour",
       "paid": "Private tour"
     },
     "languages": {
@@ -151,7 +151,7 @@
     },
     "pricing": {
       "freeTitle": "Pay-what-you-wish model",
-      "freeDescription": "This is a free tour with no upfront ticket. You decide what to contribute at the end based on your experience and budget.",
+      "freeDescription": "This is a walking tour with no upfront ticket. You decide what to contribute at the end based on your experience and budget.",
       "freeTipLabel": "Typical contribution guidance",
       "freeSchemaOffer": "Pay what you wish after the tour.",
       "paidTitle": "Fixed-price private format",
@@ -229,7 +229,7 @@
   "BookingPage": {
     "meta": {
       "title": "Book a Prague Tour | Pragolem Tours",
-      "description": "Reserve your Prague free walking tour in English or French. Choose your route, date, and time slot in under a minute."
+      "description": "Reserve your Prague walking tour in English or French. Choose your route, date, and time slot in under a minute."
     },
     "eyebrow": "Booking",
     "title": "Reserve Your Tour",
@@ -247,7 +247,7 @@
       "errorToast": "An error occurred. Please try again.",
       "tourPlaceholder": "Select a tour",
       "tourPriceType": {
-        "free": "Free tour",
+        "free": "Walking tour",
         "paid": "Private tour"
       },
       "dateLabel": "Date",
@@ -401,15 +401,15 @@
   },
   "FaqPage": {
     "meta": {
-      "title": "Pragolem FAQ | Free Tours, Private Tours, and Booking",
-      "description": "Find complete answers about Pragolem free tours, private formats, logistics, accessibility, and booking in Prague."
+      "title": "Pragolem FAQ | Walkinkg Tours, Private Tours, and Booking",
+      "description": "Find complete answers about Pragolem walkinkg tours, private formats, logistics, accessibility, and booking in Prague."
     },
     "eyebrow": "FAQ",
     "title": "Frequently Asked Questions",
     "subtitle": "Everything travelers ask us most often, grouped by category for quick navigation.",
     "categories": {
       "free-tours": {
-        "title": "Free tour model",
+        "title": "Walkinkg tour model",
         "description": "How pay-what-you-wish works and what to expect before booking."
       },
       "tours": {
@@ -457,7 +457,9 @@
       "allTours": "All tours",
       "languages": {
         "en": "English",
-        "fr": "French"
+        "fr": "French",
+         "es": "Spanish"
+
       }
     },
     "results": "Showing {shown} of {total} reviews.",
@@ -494,7 +496,7 @@
   "ToursIndexPage": {
     "meta": {
       "title": "Prague Walking Tours | Pragolem Tours",
-      "description": "Browse all Pragolem walking tours in Prague. Free tours, private tours, and guided experiences in English and French."
+      "description": "Browse all Pragolem walking tours in Prague. Walkinkg tours, private tours, and guided experiences in English and French."
     },
     "eyebrow": "Tours",
     "title": "All Prague Walking Tours",
@@ -504,7 +506,7 @@
       "languagesLabel": "Languages",
       "groupSizeLabel": "Max group",
       "priceType": {
-        "free": "Free tour",
+        "free": "Walking tour",
         "paid": "Private tour"
       },
       "language": {
@@ -539,8 +541,8 @@
         "body": "Tour reservations are subject to availability and confirmation by our team. A booking request does not guarantee a confirmed spot until you receive a confirmation email. We reserve the right to modify or cancel tours due to weather, safety, or operational reasons. In such cases, we will offer an alternative date or a full refund."
       },
       "freeModel": {
-        "title": "3. Free Tour Payment Model",
-        "body": "Our free walking tours operate on a pay-what-you-wish basis. There is no fixed fee and no obligation to pay. Guests decide on a contribution at the end of the tour based on their experience and budget. This model relies on trust and mutual respect between guides and participants."
+        "title": "3. Walkinkg Tour Payment Model",
+        "body": "Our walking tours operate on a pay-what-you-wish basis. There is no fixed fee and no obligation to pay. Guests decide on a contribution at the end of the tour based on their experience and budget. This model relies on trust and mutual respect between guides and participants."
       },
       "privateTours": {
         "title": "4. Private Tours and Pricing",
@@ -548,7 +550,7 @@
       },
       "cancellation": {
         "title": "5. Cancellation Policy",
-        "body": "Free tour bookings can be cancelled at any time without charge. We appreciate advance notice so we can plan accordingly. Private tour cancellations must be communicated at least 48 hours before the scheduled start time. Late cancellations may be subject to a cancellation fee as outlined in your booking confirmation."
+        "body": "walkinkg tour bookings can be cancelled at any time without charge. We appreciate advance notice so we can plan accordingly. Private tour cancellations must be communicated at least 48 hours before the scheduled start time. Late cancellations may be subject to a cancellation fee as outlined in your booking confirmation."
       },
       "liability": {
         "title": "6. Liability",
@@ -611,7 +613,7 @@
       "card": {
         "duration": "Duration: {value}",
         "priceType": {
-          "free": "Free tour",
+          "free": "Walking tour",
           "paid": "Private tour"
         },
         "cta": "View tour"

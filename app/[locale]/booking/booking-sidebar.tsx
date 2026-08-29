@@ -43,12 +43,12 @@ export function BookingSidebar({
           <CardTitle>{t("sidebar.contactTitle")}</CardTitle>
         </CardHeader>
         <CardContent className="space-y-2">
-          <Button variant="outline" className="w-full justify-start" asChild>
+          {/* <Button variant="outline" className="w-full justify-start" asChild>
             <a href={phoneHref}>
               <RiPhoneLine aria-hidden="true" />
               {phoneDisplay}
             </a>
-          </Button>
+          </Button> */}
           <Button variant="outline" className="w-full justify-start" asChild>
             <a href={whatsappHref} target="_blank" rel="noreferrer">
               <RiWhatsappLine aria-hidden="true" />

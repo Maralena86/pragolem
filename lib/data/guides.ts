@@ -10,23 +10,24 @@ export const guidesData: Guide[] = [
     attributes: {
       name: "Lucas",
       photo: {
-        url: "/images/placeholders/guide-lucas.jpg",
+        url: "/images/guides/lucas_nathan.webp",
         alt: "Lucas smiling during a walking tour in Prague",
       },
       role: "Co-founder & Certified Guide",
-      languages: ["French", "English", "Spanish"],
+      languages: ["French", "English"],
       shortBio:
-        "Lucas is a Colombian-born architect educated in Paris who has lived in Prague for more than a decade. He leads French, English and Spanish tours with a strong focus on making Czech history accessible, vivid and personally relevant for every group.",
+        // "Lucas is a Colombian-born architect educated in Paris who has lived in Prague for more than a decade. He leads French, English and Spanish tours with a strong focus on making Czech history accessible, vivid and personally relevant for every group.",
+        "Lucas studied architecture in Paris, but discovered that the toilets in Prague are clean, and moved. He has been living in the city for over a decade, and can give a clear-sighted view on how the city has changed, on top of the history, the myths, the legends. Witty and loquacious, you get more than you expect with Lucas.",
       fullBio: `Lucas grew up in Colombia and later trained as an architect in Paris, where he developed a long-term fascination with European urban history. More than ten years ago, he moved to Prague and quickly realized the city offered the ideal combination of layered architecture, political complexity, and daily street life that never stops surprising people. He eventually became a certified guide and co-founded Pragolem with a clear goal: share Prague with rigor, warmth, and genuine curiosity.
 
 On tour, Lucas is known for connecting Czech history to broader European narratives in ways that feel clear rather than academic. Guests often mention how naturally he links Charles IV, the Habsburg period, Napoleonic context, and modern Czech identity without losing the group in dates. As an architect, he also helps visitors read buildings as living documents, explaining why facades, street widths, and urban planning choices reveal social and political change over time.
 
-Lucas regularly guides in French, English, and Spanish, and he adapts each route to the profile of the group: first-time travelers who want orientation, history enthusiasts who want depth, or families who prefer a practical and story-driven format. His approach combines historical accuracy, practical recommendations, and conversational pacing. He believes a great visit should feel intellectually satisfying and human at the same time.
+Lucas regularly guides in French and English, he adapts each route to the profile of the group: first-time travelers who want orientation, history enthusiasts who want depth, or families who prefer a practical and story-driven format. His approach combines historical accuracy, practical recommendations, and conversational pacing. He believes a great visit should feel intellectually satisfying and human at the same time.
 
 Outside tours, Lucas continues independent research, walks new corners of the city, and updates his narratives with fresh examples so returning travelers always discover something new.`,
       quote:
         "A lot of people are doing it because it can pay well, and because it can come across as easy. It's not. It's not an easy job, at least if you want to be good at it. But it's a beautiful job.",
-      tourLanguages: "French, English & Spanish Tours",
+      tourLanguages: "French and English Tours",
       yearsInPrague: 11,
     },
     relationships: {
@@ -46,7 +47,7 @@ Outside tours, Lucas continues independent research, walks new corners of the ci
     attributes: {
       name: "Lucas",
       photo: {
-        url: "/images/placeholders/guide-lucas.jpg",
+        url: "/images/guides/lucas_nathan.webp",
         alt: "Lucas souriant pendant une visite guidée à Prague",
       },
       role: "Co-fondateur & Guide Certifié",
@@ -93,13 +94,14 @@ En dehors des visites, il continue de documenter la ville, d'explorer de nouveau
     attributes: {
       name: "Nathan",
       photo: {
-        url: "/images/placeholders/guide-nathan.jpg",
+        url: "/images/guides/nathan.webp",
         alt: "Nathan guiding a group near Charles Bridge",
       },
       role: "Co-founder & Certified Guide",
       languages: ["English"],
       shortBio:
-        "Nathan is a British guide based in Prague for over seven years. He studied English literature and Russian, and is known for sharp historical storytelling, especially on religious conflict, defenestrations and the politics that shaped Czech lands.",
+        // "Nathan is a British guide based in Prague for over seven years. He studied English literature and Russian, and is known for sharp historical storytelling, especially on religious conflict, defenestrations and the politics that shaped Czech lands.",
+        "Nathan is British, but fell in love with Prague many years ago, when Lucas and he studied Czech together at Charles University. Interested in language and literature, Nathan's tours have a heavier focus on Medieval politics, and the grim and the real from the various historical periods. Prepare for defenestrations and executions.",
       fullBio: `Nathan moved from the UK to Prague more than seven years ago after studying English literature and Russian. What started as curiosity quickly turned into long-term commitment: he immersed himself in Czech history, walked the city obsessively, and built his own archive of sources to explain Prague with clarity and personality. He later became a certified guide and co-founded Pragolem to offer tours that feel both intellectually serious and genuinely welcoming.
 
 His guiding style blends detailed research with humor and direct storytelling. Guests value the way he explains complex topics, especially religious warfare in the Czech lands, political turning points, and the famous defenestrations, without losing pace or accessibility. Rather than repeating generic scripts, Nathan structures each walk around narrative tension: what happened, why it happened, and why it still matters when you stand in that exact place today.
@@ -108,7 +110,8 @@ Nathan focuses on English-language tours and often works with travelers who alre
 
 When not guiding, Nathan continues independent reading and field research, testing new route segments and refining stories so repeat guests still get fresh insight.`,
       quote:
-        "You need to find ways to convey the information in a way that feels fresh for you, so it feels fresh for them too.",
+        // "You need to find ways to convey the information in a way that feels fresh for you, so it feels fresh for them too.",
+        "I love this job, because I get to meet people and hear different stories - and I get to speak about something I'm passionate about: Prague. And I get to work outside. Ideal.",
       tourLanguages: "English Tours",
       yearsInPrague: 7,
     },
@@ -134,7 +137,7 @@ When not guiding, Nathan continues independent reading and field research, testi
     attributes: {
       name: "Nathan",
       photo: {
-        url: "/images/placeholders/guide-nathan.jpg",
+        url: "/images/guides/nathan.webp",
         alt: "Nathan en visite guidée près du Pont Charles",
       },
       role: "Co-fondateur & Guide Certifié",

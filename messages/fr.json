@@ -1,14 +1,14 @@
 {
   "HomePage": {
-    "title": "Free Tour Prague en Français",
+    "title": "Visites guidees à Prague | Pragolem Tours",
     "subtitle": "Découvrez Prague avec des guides certifiés en français et en anglais.",
     "meta": {
-      "title": "Free Tour Prague Français | Pragolem Tours",
+      "title": "Visites guidees à Prague Français | Pragolem Tours",
       "description": "Réservez une visite guidée gratuite à Prague avec des guides certifiés. Vieille Ville, Château de Prague et visites privées sur mesure."
     },
     "hero": {
       "badge": "Guides locaux les mieux notés",
-      "primaryCta": "Réserver votre free tour",
+      "primaryCta": "Réserver votre tour",
       "secondaryCta": "Voir toutes les visites",
       "ratingLabel": "Note moyenne",
       "reviewsLabel": "Avis publiés",
@@ -21,7 +21,7 @@
       },
       "howItWorks": {
         "title": "Comment ça marche",
-        "subtitle": "Réservation rapide, points de rendez-vous clairs et visite à prix libre."
+        "subtitle": "Réservation rapide et points de rendez-vous clairs."
       },
       "guides": {
         "title": "Rencontrez nos guides",
@@ -48,7 +48,7 @@
       "fallbackGuide": "Guide Pragolem",
       "cta": "Voir la visite",
       "priceType": {
-        "free": "Visite gratuite",
+        "free": "Visite guidée",
         "paid": "Visite privée"
       },
       "language": {
@@ -100,7 +100,7 @@
       "notFoundDescription": "Cette page de visite n'est pas disponible dans cette langue."
     },
     "priceType": {
-      "free": "Visite gratuite",
+      "free": "Visite guidée",
       "paid": "Visite privee"
     },
     "languages": {
@@ -247,7 +247,7 @@
       "tourLabel": "Choix de la visite",
       "tourPlaceholder": "Sélectionner une visite",
       "tourPriceType": {
-        "free": "Visite gratuite",
+        "free": "Visite guidée",
         "paid": "Visite privée"
       },
       "dateLabel": "Date",
@@ -504,7 +504,7 @@
       "languagesLabel": "Langues",
       "groupSizeLabel": "Groupe max",
       "priceType": {
-        "free": "Visite gratuite",
+        "free": "Visite guidée",
         "paid": "Visite privee"
       },
       "language": {
@@ -611,7 +611,7 @@
       "card": {
         "duration": "Duree : {value}",
         "priceType": {
-          "free": "Visite gratuite",
+          "free": "Visite guidée",
           "paid": "Visite privee"
         },
         "cta": "Voir la visite"

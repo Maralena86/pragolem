@@ -9,7 +9,6 @@ import {
 	CardFooter,
 	CardHeader,
 	CardTitle,
-  
 } from "@/components/ui/card";
 import type { LocaleCode } from "@/lib/types/common";
 import type { Tour } from "@/lib/types/tour";
@@ -52,13 +51,15 @@ export function ToursSection({
 							>
 								{t(`tourCard.priceType.${tour.attributes.priceType}`)}
 							</Badge>
-							<Image
-								src={tour.attributes.heroImage.url}
-								alt={tour.attributes.heroImage.alt}
-                width={330}
-                height={140}
-								
-							/>
+							<div className="relative w-full h-[160px] bg-muted rounded-lg p-1 overflow-hidden">
+								<Image
+									src={tour.attributes.heroImage.url}
+									alt={tour.attributes.heroImage.alt}
+									fill
+									className="object-contain"
+									sizes="(max-width: 768px) 100vw, 33vw"
+								/>
+							</div>
 							<CardTitle>{tour.attributes.title}</CardTitle>
 							<CardDescription>
 								{tour.attributes.shortDescription}
@@ -66,11 +67,11 @@ export function ToursSection({
 						</CardHeader>
 						<CardContent>
 							<ul className="space-y-1 text-muted-foreground">
-								<li>
+								{/* <li>
 									{t("tourCard.durationLabel")}:{" "}
 									{tour.attributes.durationDisplay}
-								</li>
-								
+								</li> */}
+
 								<li>
 									{t("tourCard.languagesLabel")}:{" "}
 									{tour.attributes.languages

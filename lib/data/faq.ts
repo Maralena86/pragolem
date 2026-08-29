@@ -61,7 +61,7 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "Can I join without reservation?",
       answer:
-        "Sometimes yes, if there is capacity. However, walk-in spots are not guaranteed. Booking first is the safest option, especially for French and Spanish tours.",
+        "Sometimes yes, if there is capacity. However, walk-in spots are not guaranteed. Booking first is the safest option, especially for French tours.",
       category: "free-tours",
       order: 5,
     },
@@ -100,7 +100,7 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "Which languages are available?",
       answer:
-        "Pragolem tours are available in English, French, and Spanish depending on route, guide availability, and date.",
+        "Pragolem tours are available in English and French depending on route, guide availability, and date.",
       category: "tours",
       order: 8,
     },
