@@ -43,9 +43,9 @@ export function HeroSection({
 					<AnimatedTitle text="Pragolem Tours" />
 				</div>
 				<Badge variant="outline">{t("hero.badge")}</Badge>
-				<h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+				<h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
 					{t("title")}
-				</h1>
+				</h2>
 				<p className="max-w-2xl text-muted-foreground">{t("subtitle")}</p>
 				<div className="flex flex-wrap gap-2">
 					<Button asChild>
