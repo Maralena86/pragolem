@@ -1,6 +1,6 @@
 import type { LocaleCode, StrapiMeta } from "./common";
 
-export type FAQCategory = "free-tours" | "tours" | "private-tours" | "pragolem";
+export type FAQCategory = "walking-tours" | "tours" | "private-tours" | "pragolem";
 
 export interface FAQItemAttributes extends StrapiMeta {
   question: string;

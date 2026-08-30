@@ -30,17 +30,17 @@ export function HeroSection({
 		<section className="grid gap-6 border-b pb-10 md:grid-cols-[2fr_auto_0.8fr] items-center ">
 			<div className="space-y-4">
 				<div className="flex justify-items-normal gap-4">
-					<div className="bg-[#123865] flex items-center justify-center w-16 h-16 rounded-full">
+					<div className="bg-[#123865] flex items-center justify-center w-18 h-18 rounded-full">
 						<Image
 							src="/pragolem-logo.avif"
 							alt=""
-							width={55}
-							height={55}
+							width={50}
+							height={50}
 							className="transition-transform duration-300 hover:scale-110 hover:-rotate-6"
 							aria-hidden="true"
 						/>
 					</div>
-					<AnimatedTitle text="Pragolem Tours" />
+					<AnimatedTitle text="Pragolem" />
 				</div>
 				<Badge variant="outline">{t("hero.badge")}</Badge>
 				<h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">

@@ -408,9 +408,9 @@
     "title": "Questions frequentes",
     "subtitle": "Les questions les plus frequentes, regroupees par categorie pour une lecture rapide.",
     "categories": {
-      "free-tours": {
-        "title": "Modele free tour",
-        "description": "Fonctionnement du prix libre et points a connaitre avant de reserver."
+      "walking-tours": {
+        "title": "Modele de la visite guidée",
+        "description": "Fonctionnement du prix et points a connaitre avant de reserver."
       },
       "tours": {
         "title": "Logistique des visites",

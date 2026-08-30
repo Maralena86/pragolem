@@ -7,10 +7,10 @@ const faqEn: FAQItem[] = [
     slug: "what-is-a-free-tour",
     locale: "en",
     attributes: {
-      question: "What is a free walking tour in Prague?",
+      question: "What is a walking tour? ",
       answer:
-        "A free walking tour is a guided city walk with no fixed ticket price. You join the tour, and at the end you contribute what you feel is fair based on your experience and budget.",
-      category: "free-tours",
+        "A walking tour is a guided city walk with no fixed ticket price and where you do not require entrances for museums, monuments or other. The contribution starts at 500 CZK or 20€ per person. You join the tour, and at the end you contribute what you feel is fair based on your experience on top of that initial fee.",
+      category: "walking-tours",
       order: 1,
     },
     relationships: {},
@@ -22,8 +22,8 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "Is it really free?",
       answer:
-        "Yes. There is no mandatory upfront fee. Pragolem operates on a pay-what-you-wish model for free tours, which keeps tours accessible while rewarding quality guiding.",
-      category: "free-tours",
+        "No. There is a mandatory minimum 500 CZK or 20€ per person fee. Pragolem operates in a way where we try to keep tours accessible while rewarding quality guiding. Nevertheless this is a job and we cannot operate at losses.",
+      category: "walking-tours",
       order: 2,
     },
     relationships: {},
@@ -35,8 +35,8 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "How much should I tip on a free tour?",
       answer:
-        "There is no required amount. Most guests choose an amount based on satisfaction, typically around 15-25 EUR per adult for a high-quality 3-hour experience.",
-      category: "free-tours",
+        "TYou should always try to tip your guides as best as you can, They are there to provide you with knowledge and a lot of practical information that will save you money in the long run. As previously stated Pragolem operates at a minimum fee starting at 500 CZK or 20€ per person. Everything to pay on top of that is what keeps the project alive and that pays for example for this website.",
+      category: "walking-tours",
       order: 3,
     },
     relationships: {},
@@ -48,8 +48,8 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "Do I need to book in advance?",
       answer:
-        "Advance booking is strongly recommended, especially from April to October and on weekends. It helps us maintain group quality and confirms your place.",
-      category: "free-tours",
+        "Advance booking is strongly recommended. It helps us maintain group quality and confirms your place. It is also important that you confirm your attendance to the tour.",
+      category: "walking-tours",
       order: 4,
     },
     relationships: {},
@@ -61,8 +61,8 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "Can I join without reservation?",
       answer:
-        "Sometimes yes, if there is capacity. However, walk-in spots are not guaranteed. Booking first is the safest option, especially for French tours.",
-      category: "free-tours",
+        "Sometimes yes, if there is capacity. However, walk-in spots are not guaranteed and sometimes you can go to the meeting point and simply not find a guide as there was no tour scheduled for that day. Booking first is the safest option.",
+      category: "walking-tours",
       order: 5,
     },
     relationships: {},
@@ -87,7 +87,8 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "Where is the meeting point?",
       answer:
-        "Meeting points depend on the tour. For Old Town tours, we usually meet at the Astronomical Clock. For Castle tours, we typically meet near the Charles IV statue.",
+        `10:00am on the Old Town Square in front of Cartier for the tour of the Old Town and Jewish Quarter.
+        14:00pm in front of the Malostranská metro station for the tour of the Castle, Lesser Town and Charles Bridge.`,
       category: "tours",
       order: 7,
     },
@@ -100,7 +101,7 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "Which languages are available?",
       answer:
-        "Pragolem tours are available in English and French depending on route, guide availability, and date.",
+        "English and French. A Spanish-language tour is available privately.",
       category: "tours",
       order: 8,
     },
@@ -113,7 +114,7 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "What happens in bad weather?",
       answer:
-        "Tours usually run in light rain and cold weather. In severe weather, we contact booked guests and offer a reschedule or practical alternative.",
+        "The tour will not run in the case of extreme weather, but a bit of rain won't stop us.",
       category: "tours",
       order: 9,
     },
@@ -139,7 +140,7 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "Are the tours wheelchair accessible?",
       answer:
-        "Some segments include cobblestones and slopes. Contact us before booking and we will recommend the best route and pacing options for your needs.",
+        "The morning tour is wheelchair accessible. Unfortunately, the afternoon tour is not; the Prague castle has more than 220 stairs that we will need to walk down.",
       category: "tours",
       order: 11,
     },
@@ -152,7 +153,7 @@ const faqEn: FAQItem[] = [
     attributes: {
       question: "What should I bring to the tour?",
       answer:
-        "Bring comfortable shoes, weather-appropriate clothing, and water. In summer, sun protection is useful. In winter, warm layers are essential.",
+        "Bring comfortable shoes, weather-appropriate clothing, and water. In summer, sun protection is useful. In winter, warm layers are essential. For the English speaking tour mind that cards are not accepted so payments are required in cash",
       category: "tours",
       order: 12,
     },
@@ -173,45 +174,19 @@ const faqEn: FAQItem[] = [
   },
   {
     id: "faq-en-014",
-    slug: "private-tour-pricing",
-    locale: "en",
-    attributes: {
-      question: "How much does a private tour cost?",
-      answer:
-        "Pricing depends on group size, duration, and route complexity. We provide a clear quote before confirmation, with no hidden fees.",
-      category: "private-tours",
-      order: 14,
-    },
-    relationships: {},
-  },
-  {
-    id: "faq-en-015",
-    slug: "custom-itinerary-request",
-    locale: "en",
-    attributes: {
-      question: "Can we request a custom itinerary?",
-      answer:
-        "Absolutely. We regularly design custom programs for architecture, Jewish heritage, Cold War history, food-focused walks, and business events.",
-      category: "private-tours",
-      order: 15,
-    },
-    relationships: {},
-  },
-  {
-    id: "faq-en-016",
-    slug: "who-are-the-guides",
+    slug: "who-pragolem-guides",
     locale: "en",
     attributes: {
       question: "Who are the Pragolem guides?",
       answer:
         "Pragolem is run by Lucas and Nathan, two certified local guides based in Prague with strong expertise in Czech history and visitor-focused storytelling.",
       category: "pragolem",
-      order: 16,
+      order: 14,
     },
     relationships: {},
   },
   {
-    id: "faq-en-017",
+    id: "faq-en-015",
     slug: "are-your-guides-certified",
     locale: "en",
     attributes: {
@@ -219,20 +194,33 @@ const faqEn: FAQItem[] = [
       answer:
         "Yes. We are licensed and professionally trained guides, and we continuously update our routes and historical material.",
       category: "pragolem",
-      order: 17,
+      order: 15,
     },
     relationships: {},
   },
   {
-    id: "faq-en-018",
+    id: "faq-en-016",
     slug: "cancel-or-reschedule",
     locale: "en",
     attributes: {
       question: "How can I cancel or reschedule?",
       answer:
         "Send us a message on WhatsApp or email as soon as possible. For private tours, early notice is especially helpful for logistics.",
+      category: "walking-tours",
+      order: 16,
+    },
+    relationships: {},
+  },
+  {
+    id: "faq-en-017",
+    slug: "still-have-question",
+    locale: "en",
+    attributes: {
+      question: "Still have a question?",
+      answer:
+        "Send us a message and we will recommend the best tour format for your trip.",
       category: "pragolem",
-      order: 18,
+      order: 17,
     },
     relationships: {},
   },
@@ -245,10 +233,10 @@ const faqFr: FAQItem[] = [
     slug: "quest-ce-quun-free-tour",
     locale: "fr",
     attributes: {
-      question: "Qu'est-ce qu'un free tour à Prague ?",
+      question: "Qu'est-ce qu'une visite guidée à Prague ?",
       answer:
-        "Un free tour est une visite guidée sans prix fixe imposé à l'avance. Vous participez à la visite, puis vous donnez à la fin le montant qui vous semble juste.",
-      category: "free-tours",
+        "C'est une visite guidée à pied de la ville, sans tarif fixe et sans entrée dans les musées, monuments ou autres sites. La participation commence à 500 CZK ou 20 € par personne. Vous participez à la visite, puis, à la fin, vous pouvez ajouter ce qui vous semble juste en fonction de votre expérience.",
+      category: "walking-tours",
       order: 1,
     },
     relationships: {},
@@ -260,8 +248,8 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Est-ce vraiment gratuit ?",
       answer:
-        "Oui. Il n'y a pas de ticket obligatoire au départ. Le modèle est à prix libre, ce qui permet une visite guidée gratuite et accessible.",
-      category: "free-tours",
+        "Non. Une participation minimale obligatoire de 500 CZK ou 20 € par personne s’applique. Pragolem cherche à rendre ses visites accessibles tout en valorisant la qualité du guidage. Mais cela reste notre métier et nous ne pouvons pas travailler à perte.",
+      category: "walking-tours",
       order: 2,
     },
     relationships: {},
@@ -271,10 +259,11 @@ const faqFr: FAQItem[] = [
     slug: "combien-donner-pourboire",
     locale: "fr",
     attributes: {
-      question: "Combien donner à la fin d'un free tour ?",
+      question: "Combien donner à la fin de la visite ?",
       answer:
-        "Il n'y a pas de montant imposé. Beaucoup de participants donnent selon leur satisfaction, souvent autour de 15 à 25 EUR par adulte.",
-      category: "free-tours",
+        `Nous vous encourageons à remercier votre guide à la hauteur de votre expérience. Il est là pour vous transmettre ses connaissances et de nombreuses informations pratiques qui peuvent vous faire économiser de l’argent pendant votre séjour.
+        Comme indiqué plus haut, la participation minimale chez Pragolem est de 500 CZK ou 20 € par personne. Toute contribution supplémentaire nous permet de faire vivre le projet et de financer, entre autres, ce site internet.`,
+      category: "walking-tours",
       order: 3,
     },
     relationships: {},
@@ -286,8 +275,8 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Faut-il réserver à l'avance ?",
       answer:
-        "Oui, c'est fortement conseillé, surtout en haute saison et le week-end. La réservation garantit votre place et améliore l'organisation du groupe.",
-      category: "free-tours",
+        "La réservation à l’avance est fortement recommandée. Elle nous permet de maintenir des groupes de qualité et de garantir votre place. Il est également important de confirmer votre présence avant la visite.",
+      category: "walking-tours",
       order: 4,
     },
     relationships: {},
@@ -299,8 +288,8 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Peut-on venir sans réservation ?",
       answer:
-        "C'est parfois possible s'il reste des places, mais ce n'est pas garanti. Pour un free tour en français à Prague, la réservation reste la meilleure option.",
-      category: "free-tours",
+        "Parfois, oui, s’il reste de la place. Cependant, les places sans réservation ne sont pas garanties. Il peut aussi arriver qu’aucune visite ne soit prévue ce jour-là et qu’il n’y ait donc pas de guide au point de rendez-vous. Réserver à l’avance reste l’option la plus sûre.",
+      category: "walking-tours",
       order: 5,
     },
     relationships: {},
@@ -312,7 +301,7 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Quelle est la durée des visites ?",
       answer:
-        "Nos free tours durent environ 3 heures, avec des pauses régulières pour les explications et l'orientation.",
+        "Nos principales visites à pied à Prague durent environ 3 heures, avec de courtes pauses et des moments consacrés à l’orientation pratique.",
       category: "tours",
       order: 6,
     },
@@ -325,7 +314,9 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Où se trouve le point de rendez-vous ?",
       answer:
-        "Il dépend de la visite choisie. Pour la Vieille Ville, rendez-vous près de l'horloge astronomique. Pour le Château, départ près de la statue de Charles IV.",
+        `10h00 : sur la place de la Vieille Ville, devant Cartier, pour la visite de la Vieille Ville et du quartier juif.
+
+        14h00 : devant la station de métro Malostranská, pour la visite du Château, de Malá Strana et du pont Charles.`,
       category: "tours",
       order: 7,
     },
@@ -338,7 +329,7 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Quelles langues proposez-vous ?",
       answer:
-        "Nous proposons des visites en français, anglais et espagnol, selon la date, la disponibilité des guides et le type de parcours.",
+        "Les visites sont proposées en français et en anglais. Une visite en espagnol est également possible sur demande, en privé.",
       category: "tours",
       order: 8,
     },
@@ -351,7 +342,7 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Que se passe-t-il en cas de mauvais temps ?",
       answer:
-        "Les visites sont maintenues en cas de pluie légère. En cas de météo extrême, nous contactons les participants pour proposer un report.",
+        "La visite est annulée en cas de conditions météorologiques extrêmes. En revanche, un peu de pluie ne nous arrêtera pas !",
       category: "tours",
       order: 9,
     },
@@ -364,7 +355,7 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Les visites conviennent-elles aux enfants ?",
       answer:
-        "Oui, surtout pour les enfants qui aiment marcher et écouter des histoires. Pensez à prendre de l'eau et un en-cas.",
+        "Oui, notamment pour les enfants qui aiment les histoires et peuvent marcher pendant environ trois heures. Pour les plus jeunes, nous recommandons de prévoir de l’eau et une petite collation.",
       category: "tours",
       order: 10,
     },
@@ -377,7 +368,7 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Les parcours sont-ils accessibles en fauteuil roulant ?",
       answer:
-        "Certaines zones ont des pavés et des pentes. Contactez-nous avant de réserver et nous vous orienterons vers le parcours le plus adapté.",
+        "La visite du matin est accessible en fauteuil roulant. Malheureusement, celle de l’après-midi ne l’est pas : la visite du Château comprend notamment plus de 220 marches à descendre.",
       category: "tours",
       order: 11,
     },
@@ -390,7 +381,9 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Que faut-il prévoir pour la visite ?",
       answer:
-        "Prévoyez de bonnes chaussures, de l'eau et des vêtements adaptés à la saison. En été, protection solaire recommandée.",
+        `Prévoyez des chaussures confortables, une tenue adaptée à la météo et de l’eau. En été, une protection solaire est recommandée ; en hiver, prévoyez plusieurs couches bien chaudes.
+
+        Pour la visite en anglais, veuillez noter que les cartes bancaires ne sont pas acceptées : le paiement doit se faire en espèces.`,
       category: "tours",
       order: 12,
     },
@@ -401,37 +394,11 @@ const faqFr: FAQItem[] = [
     slug: "quest-ce-quune-visite-privee",
     locale: "fr",
     attributes: {
-      question: "Qu'est-ce qu'une visite privée ?",
+      question: "Que comprend une visite privée ?",
       answer:
-        "Une visite privée est un parcours sur mesure avec un guide dédié, un tarif fixe et un rythme adapté à votre groupe.",
+        "Les visites privées sont conçues sur mesure, avec un guide dédié, un tarif fixe et un rythme adapté à vos envies. Elles sont particulièrement adaptées aux familles, aux écoles et aux groupes professionnels.",
       category: "private-tours",
       order: 13,
-    },
-    relationships: {},
-  },
-  {
-    id: "faq-fr-014",
-    slug: "tarif-visite-privee",
-    locale: "fr",
-    attributes: {
-      question: "Combien coûte une visite privée à Prague ?",
-      answer:
-        "Le tarif dépend du nombre de participants, de la durée et du programme. Un devis clair est envoyé avant confirmation.",
-      category: "private-tours",
-      order: 14,
-    },
-    relationships: {},
-  },
-  {
-    id: "faq-fr-015",
-    slug: "itineraires-sur-mesure",
-    locale: "fr",
-    attributes: {
-      question: "Peut-on demander un itinéraire personnalisé ?",
-      answer:
-        "Oui. Nous créons régulièrement des visites sur mesure pour architecture, histoire juive, événements d'entreprise et groupes scolaires.",
-      category: "private-tours",
-      order: 15,
     },
     relationships: {},
   },
@@ -442,7 +409,7 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Qui sont les guides Pragolem ?",
       answer:
-        "Pragolem est dirigé par Lucas et Nathan, deux guides certifiés installés à Prague, passionnés d'histoire et de transmission.",
+        "Pragolem est animé par Lucas et Nathan, deux guides locaux certifiés, basés à Prague et spécialisés dans l’histoire tchèque et la transmission de connaissances de manière vivante et accessible.",
       category: "pragolem",
       order: 16,
     },
@@ -468,7 +435,7 @@ const faqFr: FAQItem[] = [
     attributes: {
       question: "Comment annuler ou reprogrammer une visite ?",
       answer:
-        "Contactez-nous par WhatsApp ou par email dès que possible. Pour les visites privées, un préavis est particulièrement apprécié.",
+        "Contactez-nous par WhatsApp ou par e-mail dès que possible. Pour les visites privées, nous vous remercions de nous prévenir suffisamment à l’avance afin de faciliter l’organisation.",
       category: "pragolem",
       order: 18,
     },

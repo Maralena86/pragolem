@@ -33,7 +33,7 @@ import { TourReviewsSection } from "./tour-reviews-section";
  * Selects the most relevant FAQ category for the tour format so the FAQ section stays contextual.
  */
 function getFaqCategoryForTour(tour: Tour): FAQCategory {
-	return tour.attributes.priceType === "paid" ? "private-tours" : "free-tours";
+	return tour.attributes.priceType === "paid" ? "private-tours" : "walking-tours";
 }
 
 /**

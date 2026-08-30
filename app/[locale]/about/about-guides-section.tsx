@@ -97,14 +97,14 @@ export function AboutGuidesSection({ t, guides }: AboutGuidesSectionProps) {
 										count: guide.attributes.yearsInPrague,
 									})}
 								</p>
-								<div className="flex h-[150px]">
-									<div className="relative w-full">
+								<div className="flex h-[170px] gap-3">
+									<div className="relative h-full w-[170px] shrink-0">
 										<Image
 											src={guide.attributes.photo.url}
 											alt={guide.attributes.photo.alt}
 											fill
 											className="object-contain"
-											sizes="(max-width: 768px) 100vw, 33vw"
+											sizes="170px"
 										/>
 									</div>
 									<p className="border-l-2 pl-3 text-muted-foreground">

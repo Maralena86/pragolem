@@ -17,7 +17,7 @@ export const guidesData: Guide[] = [
       languages: ["French", "English"],
       shortBio:
         // "Lucas is a Colombian-born architect educated in Paris who has lived in Prague for more than a decade. He leads French, English and Spanish tours with a strong focus on making Czech history accessible, vivid and personally relevant for every group.",
-        "Lucas studied architecture in Paris, but discovered that the toilets in Prague are clean, and moved. He has been living in the city for over a decade, and can give a clear-sighted view on how the city has changed, on top of the history, the myths, the legends. Witty and loquacious, you get more than you expect with Lucas.",
+        "Lucas is a Colombian-born architect educated in Paris who has lived in Prague for more than a decade. An avid traveler, he can give a clear-sighted view on how the city has changed, on top of the history, the myths, the legends. Witty and loquacious (he speaks French, English, Spanish and Czech), you get more than you expect with Lucas.",
       fullBio: `Lucas grew up in Colombia and later trained as an architect in Paris, where he developed a long-term fascination with European urban history. More than ten years ago, he moved to Prague and quickly realized the city offered the ideal combination of layered architecture, political complexity, and daily street life that never stops surprising people. He eventually became a certified guide and co-founded Pragolem with a clear goal: share Prague with rigor, warmth, and genuine curiosity.
 
 On tour, Lucas is known for connecting Czech history to broader European narratives in ways that feel clear rather than academic. Guests often mention how naturally he links Charles IV, the Habsburg period, Napoleonic context, and modern Czech identity without losing the group in dates. As an architect, he also helps visitors read buildings as living documents, explaining why facades, street widths, and urban planning choices reveal social and political change over time.
@@ -26,7 +26,7 @@ Lucas regularly guides in French and English, he adapts each route to the profil
 
 Outside tours, Lucas continues independent research, walks new corners of the city, and updates his narratives with fresh examples so returning travelers always discover something new.`,
       quote:
-        "A lot of people are doing it because it can pay well, and because it can come across as easy. It's not. It's not an easy job, at least if you want to be good at it. But it's a beautiful job.",
+        "Pragolem was born from the idea of the Golem constantly wandering through the city, watching over it and acting as its guardian. After all, he was Prague’s original 16th-century superhero. I see my work in much the same way: as a storyteller walking the streets of Prague, bringing its history, characters and stories to life, while sharing my love and knowledge of this beautiful city. If that’s what I get to do for a living, I can hardly imagine a better job.",
       tourLanguages: "French and English Tours",
       yearsInPrague: 11,
     },
@@ -51,19 +51,25 @@ Outside tours, Lucas continues independent research, walks new corners of the ci
         alt: "Lucas souriant pendant une visite guidée à Prague",
       },
       role: "Co-fondateur & Guide Certifié",
-      languages: ["Français", "Anglais", "Espagnol"],
+      languages: ["Français", "Anglais"],
       shortBio:
-        "Né en Colombie et formé à Paris en architecture, Lucas vit à Prague depuis plus de dix ans. Il guide en français, anglais et espagnol, avec une approche passionnée qui relie l'histoire tchèque aux grandes dynamiques européennes.",
-      fullBio: `Lucas est né en Colombie puis a étudié l'architecture à Paris, où il a développé une passion durable pour l'histoire urbaine européenne. En s'installant à Prague il y a plus de dix ans, il a découvert une ville capable de raconter plusieurs siècles en quelques rues: Moyen Âge, empire, modernité, mémoire politique. Cette richesse l'a conduit à devenir guide certifié, puis à co-fonder Pragolem avec l'idée simple de proposer des visites sincères, exigeantes et profondément humaines.
+        `Lucas est un architecte né en Colombie, formé à Paris, qui vit à Prague depuis plus de dix ans. Grand amateur de voyages, il offre un regard lucide et éclairé sur l’évolution de la ville, en plus de partager son histoire, ses mythes et ses légendes.
 
-Sa spécialité est de rendre l'histoire accessible sans la simplifier à outrance. Pendant ses visites, Lucas relie naturellement l'histoire tchèque à l'histoire française et européenne: Charles IV, les dynamiques impériales, les périodes de conflit religieux, les grandes continuités urbaines. Son regard d'architecte lui permet aussi d'expliquer la ville par ses volumes, ses perspectives, ses matériaux et ses transformations successives, ce qui aide les voyageurs à lire Prague autrement.
+        Spirituel et volubile — il parle français, anglais, espagnol et tchèque — Lucas vous réserve bien plus que ce à quoi vous vous attendez.`,
+        fullBio: `Lucas est né en Colombie puis a étudié l'architecture à Paris, où il a développé une passion durable pour l'histoire urbaine européenne. En s'installant à Prague il y a plus de dix ans, il a découvert une ville capable de raconter plusieurs siècles en quelques rues: Moyen Âge, empire, modernité, mémoire politique. Cette richesse l'a conduit à devenir guide certifié, puis à co-fonder Pragolem avec l'idée simple de proposer des visites sincères, exigeantes et profondément humaines.
 
-Lucas guide en français, en anglais et en espagnol. Il adapte chaque visite au profil du groupe: voyageurs qui découvrent Prague pour la première fois, passionnés d'histoire, familles, groupes d'amis ou entreprises. Son style combine précision historique, anecdotes incarnées et conseils pratiques immédiatement utiles pour le reste du séjour.
+        Sa spécialité est de rendre l'histoire accessible sans la simplifier à outrance. Pendant ses visites, Lucas relie naturellement l'histoire tchèque à l'histoire française et européenne: Charles IV, les dynamiques impériales, les périodes de conflit religieux, les grandes continuités urbaines. Son regard d'architecte lui permet aussi d'expliquer la ville par ses volumes, ses perspectives, ses matériaux et ses transformations successives, ce qui aide les voyageurs à lire Prague autrement.
 
-En dehors des visites, il continue de documenter la ville, d'explorer de nouveaux parcours et d'actualiser ses contenus. Sa conviction est constante: une bonne visite ne consiste pas à réciter des dates, mais à transmettre un regard vivant sur Prague.`,
+        Lucas guide en français, en anglais et en espagnol. Il adapte chaque visite au profil du groupe: voyageurs qui découvrent Prague pour la première fois, passionnés d'histoire, familles, groupes d'amis ou entreprises. Son style combine précision historique, anecdotes incarnées et conseils pratiques immédiatement utiles pour le reste du séjour.
+
+        En dehors des visites, il continue de documenter la ville, d'explorer de nouveaux parcours et d'actualiser ses contenus. Sa conviction est constante: une bonne visite ne consiste pas à réciter des dates, mais à transmettre un regard vivant sur Prague.`,
       quote:
-        "Beaucoup se lancent parce que cela semble facile et rentable. Ce n'est pas un métier facile, du moins si l'on veut bien le faire. Mais c'est un très beau métier.",
-      tourLanguages: "Visites en Français, Anglais et Espagnol",
+        `Pragolem est né de l’idée d’un Golem qui arpente la ville, veille sur elle et la protège. Après tout, il était le premier super-héros de Prague, au XVIe siècle.
+
+        Je vois mon travail un peu de la même façon : comme un conteur qui parcourt les rues de Prague, fait revivre son histoire, ses personnages et ses légendes, tout en partageant mon amour et ma connaissance de cette magnifique ville.
+
+        Et si c’est ce que je peux faire pour vivre, difficile d’imaginer un meilleur métier.`,
+      tourLanguages: "Visites en anglais et en français",
       yearsInPrague: 11,
     },
     relationships: {

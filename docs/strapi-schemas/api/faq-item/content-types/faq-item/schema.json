@@ -37,7 +37,7 @@
     },
     "category": {
       "type": "enumeration",
-      "enum": ["free-tours", "tours", "private-tours", "pragolem"],
+      "enum": ["walking-tours", "tours", "private-tours", "pragolem"],
       "required": true
     },
     "order": {

@@ -408,9 +408,9 @@
     "title": "Frequently Asked Questions",
     "subtitle": "Everything travelers ask us most often, grouped by category for quick navigation.",
     "categories": {
-      "free-tours": {
+      "walking-tours": {
         "title": "Walkinkg tour model",
-        "description": "How pay-what-you-wish works and what to expect before booking."
+        "description": "How pay works and what to expect before booking."
       },
       "tours": {
         "title": "Tour logistics",

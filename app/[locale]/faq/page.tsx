@@ -9,7 +9,7 @@ import { FaqHeroSection } from "./faq-hero-section";
 import { FaqAccordionSection } from "./faq-accordion-section";
 import { FaqCtaSection } from "./faq-cta-section";
 
-const FAQ_CATEGORY_ORDER: FAQCategory[] = ["free-tours", "tours", "private-tours", "pragolem"];
+const FAQ_CATEGORY_ORDER: FAQCategory[] = ["walking-tours", "tours", "private-tours", "pragolem"];
 
 /**
  * Groups FAQ items by category using a stable category order.
