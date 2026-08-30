@@ -83,9 +83,13 @@ export function ToursSection({
 								</li>
 								<li>
 									{t("tourCard.guideLabel")}:{" "}
-									{(tour.relationships.guide.data.slug &&
-										guideNameBySlug.get(tour.relationships.guide.data.slug)) ??
-										t("tourCard.fallbackGuide")}
+									{tour.relationships.guide.data
+										.map(
+											(g) =>
+												(g.slug ? guideNameBySlug.get(g.slug) : undefined) ??
+												t("tourCard.fallbackGuide"),
+										)
+										.join(" & ")}
 								</li>
 							</ul>
 						</CardContent>

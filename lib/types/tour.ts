@@ -55,7 +55,7 @@ export interface TourAttributes extends StrapiMeta {
 
 export interface TourRelationships {
   guide: {
-    data: StrapiRelationRef;
+    data: StrapiRelationRef[];
   };
   relatedTours: {
     data: StrapiRelationRef[];

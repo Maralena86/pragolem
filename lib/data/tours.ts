@@ -119,12 +119,15 @@ Si vous recherchez une visite guidée privée à Prague en français, Pragolem p
     },
     relationships: {
       guide: {
-        data: {
-          id: "guide-lucas-fr",
-          type: "guide",
-          slug: "lucas",
-          locale: "fr",
-        },
+        data: [
+      
+      {
+        id: "guide-lucas-en",
+        type: "guide",
+        slug: "lucas",
+        locale: "en",
+      }
+    ],
       },
       relatedTours: {
         data: [
@@ -259,12 +262,20 @@ If you are searching for private guided tours in Prague with genuine local exper
     },
     relationships: {
       guide: {
-        data: {
-          id: "guide-nathan-en",
-          type: "guide",
-          slug: "nathan",
-          locale: "en",
-        },
+        data: [
+      {
+        id: "guide-nathan-en",
+        type: "guide",
+        slug: "nathan",
+        locale: "en",
+      },
+      {
+        id: "guide-lucas-en",
+        type: "guide",
+        slug: "lucas",
+        locale: "en",
+      },
+    ],
       },
       relatedTours: {
         data: [
@@ -517,12 +528,20 @@ If you are searching for private guided tours in Prague with genuine local exper
     },
     relationships: {
       guide: {
-        data: {
-          id: "guide-lucas-en",
-          type: "guide",
-          slug: "lucas",
-          locale: "en",
-        },
+        data: [
+      {
+        id: "guide-nathan-en",
+        type: "guide",
+        slug: "nathan",
+        locale: "en",
+      },
+      {
+        id: "guide-lucas-en",
+        type: "guide",
+        slug: "lucas",
+        locale: "en",
+      },
+    ],
       },
       relatedTours: {
         data: [
@@ -772,12 +791,14 @@ If you are searching for private guided tours in Prague with genuine local exper
     },
     relationships: {
       guide: {
-        data: {
-          id: "guide-lucas-fr",
-          type: "guide",
-          slug: "lucas",
-          locale: "fr",
-        },
+        data: [
+      {
+        id: "guide-lucas-en",
+        type: "guide",
+        slug: "lucas",
+        locale: "en",
+      }
+    ],
       },
       relatedTours: {
         data: [
@@ -996,12 +1017,20 @@ If you are searching for private guided tours in Prague with genuine local exper
     },
     relationships: {
       guide: {
-        data: {
-          id: "guide-nathan-en",
-          type: "guide",
-          slug: "nathan",
-          locale: "en",
-        },
+        data: [
+      {
+        id: "guide-nathan-en",
+        type: "guide",
+        slug: "nathan",
+        locale: "en",
+      },
+      {
+        id: "guide-lucas-en",
+        type: "guide",
+        slug: "lucas",
+        locale: "en",
+      },
+    ],
       },
       relatedTours: {
         data: [
@@ -1220,12 +1249,15 @@ If you are searching for private guided tours in Prague with genuine local exper
     },
     relationships: {
       guide: {
-        data: {
-          id: "guide-lucas-fr",
-          type: "guide",
-          slug: "lucas",
-          locale: "fr",
-        },
+        data: [
+      
+      {
+        id: "guide-lucas-en",
+        type: "guide",
+        slug: "lucas",
+        locale: "en",
+      }
+    ],
       },
       relatedTours: {
         data: [
