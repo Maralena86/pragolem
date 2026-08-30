@@ -37,7 +37,7 @@ export function AboutGuidesSection({ t, guides }: AboutGuidesSectionProps) {
 				<div className="grid gap-4 lg:grid-cols-2">
 					{guides.map((guide) => (
 						<Card key={guide.id}>
-							<CardContent className="grid gap-4 pt-4 md:grid-cols-[160px_1fr]">
+							{/* <CardContent className="grid gap-4 pt-4 md:grid-cols-[160px_1fr]">
 								<div className="relative aspect-4/5 w-full overflow-hidden border">
 									<Image
 										src={guide.attributes.photo.url}
@@ -68,9 +68,48 @@ export function AboutGuidesSection({ t, guides }: AboutGuidesSectionProps) {
 											count: guide.attributes.yearsInPrague,
 										})}
 									</p>
+								</div>
+								<div className="flex w-full">
+									<div className="relative w-full">
+										<Image
+											src={guide.attributes.photo.url}
+											alt={guide.attributes.photo.alt}
+											fill
+											className="object-contain"
+											sizes="(max-width: 768px) 100vw, 33vw"
+										/>
+									</div>
 									<blockquote className="border-l-2 pl-3 text-muted-foreground">
 										&quot;{guide.attributes.quote}&quot;
 									</blockquote>
+								</div>
+							</CardContent> */}
+							<CardContent className="space-y-3">
+								<p className="text-muted-foreground">
+									{guide.attributes.shortBio}
+								</p>
+								<p className="text-muted-foreground">
+									{t("guides.languagesLabel")}:{" "}
+									{guide.attributes.languages.join(", ")}
+								</p>
+								<p className="text-muted-foreground">
+									{t("guides.yearsInPrague", {
+										count: guide.attributes.yearsInPrague,
+									})}
+								</p>
+								<div className="flex h-[150px]">
+									<div className="relative w-full">
+										<Image
+											src={guide.attributes.photo.url}
+											alt={guide.attributes.photo.alt}
+											fill
+											className="object-contain"
+											sizes="(max-width: 768px) 100vw, 33vw"
+										/>
+									</div>
+									<p className="border-l-2 pl-3 text-muted-foreground">
+										{guide.attributes.quote}
+									</p>
 								</div>
 							</CardContent>
 						</Card>

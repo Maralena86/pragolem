@@ -26,7 +26,15 @@ export function GuidesSection({ t, guides }: GuidesSectionProps) {
 				</h2>
 				<p className="text-muted-foreground">{t("sections.guides.subtitle")}</p>
 			</div>
-			
+			<div className="relative w-full">
+				<Image
+					src={"/images/guides/lucas.webp"}
+					alt={"Guides Pragolem Praga. Lucas and Nathan"}
+					fill
+					className="object-contain"
+					sizes="(max-width: 768px) 100vw, 33vw"
+				/>
+			</div>
 			<div className="grid gap-4 md:grid-cols-2">
 				{guides.map((guide) => (
 					<Card key={guide.id}>

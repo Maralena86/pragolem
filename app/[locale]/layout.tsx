@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Outfit, Quintessential } from "next/font/google";
+import { Outfit, Quintessential, Eagle_Lake } from "next/font/google";
 import Script from "next/script";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
@@ -19,6 +19,11 @@ const quintessential = Quintessential({
 	weight: "400", // Quintessential n'existe qu'en poids 400 (Regular)
 	subsets: ["latin"],
 	variable: "--font-quintessential-raw",
+});
+const eagleLake = Eagle_Lake({
+	weight: "400", // Eagle Lake n'existe qu'en poids 400 (Regular)
+	subsets: ["latin"],
+	variable: "--font-eagle-lake-raw",
 });
 
 /**
@@ -70,7 +75,7 @@ export default async function LocaleLayout({
 	return (
 		<html
 			lang={locale}
-			className={`${outfit.variable} ${quintessential.variable}`}
+			className={`${outfit.variable} ${quintessential.variable} ${eagleLake.variable}`}
 		>
 			<body className={`font-sans antialiased dark`}>
 				<NextIntlClientProvider locale={locale} messages={messages}>

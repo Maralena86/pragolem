@@ -47,6 +47,7 @@
   --radius-4xl: calc(var(--radius) + 16px);
   --animate-float: float 3s ease-in-out infinite;
   --font-quintessential: var(--font-quintessential-raw);
+  --font-eagle-lake: var(--font-eagle-lake-raw);
 }
 
 :root {

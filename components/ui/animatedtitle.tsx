@@ -2,7 +2,7 @@
 
 export function AnimatedTitle({ text }: { text: string }) {
 	return (
-		<h1 className="font-quintessential text-5xl tracking-[0.05em] mt-2 text-[#4A719A] flex">
+		<h1 className="font-eagle-lake text-4xl mt-2 text-[#4A719A] flex">
 			{text.split("").map((letter, index) => (
 				<span
 					key={index}
