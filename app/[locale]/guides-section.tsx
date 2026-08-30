@@ -26,6 +26,7 @@ export function GuidesSection({ t, guides }: GuidesSectionProps) {
 				</h2>
 				<p className="text-muted-foreground">{t("sections.guides.subtitle")}</p>
 			</div>
+			
 			<div className="grid gap-4 md:grid-cols-2">
 				{guides.map((guide) => (
 					<Card key={guide.id}>

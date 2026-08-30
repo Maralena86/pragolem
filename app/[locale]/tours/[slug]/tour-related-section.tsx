@@ -36,11 +36,11 @@ export function TourRelatedSection({
                 <CardTitle>{relatedTour.attributes.title}</CardTitle>
                 <CardDescription>{relatedTour.attributes.shortDescription}</CardDescription>
               </CardHeader>
-              <CardContent className="text-muted-foreground">
+              {/* <CardContent className="text-muted-foreground">
                 <p>
                   {t("relatedTours.durationLabel")}: {relatedTour.attributes.durationDisplay}
                 </p>
-              </CardContent>
+              </CardContent> */}
               <CardFooter>
                 <Button variant="outline" asChild>
                   <Link

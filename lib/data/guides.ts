@@ -10,7 +10,7 @@ export const guidesData: Guide[] = [
     attributes: {
       name: "Lucas",
       photo: {
-        url: "/images/guides/lucas_nathan.webp",
+        url: "/images/guides/lucas.webp",
         alt: "Lucas smiling during a walking tour in Prague",
       },
       role: "Co-founder & Certified Guide",
@@ -47,7 +47,7 @@ Outside tours, Lucas continues independent research, walks new corners of the ci
     attributes: {
       name: "Lucas",
       photo: {
-        url: "/images/guides/lucas_nathan.webp",
+        url: "/images/guides/lucas.webp",
         alt: "Lucas souriant pendant une visite guidée à Prague",
       },
       role: "Co-fondateur & Guide Certifié",

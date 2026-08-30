@@ -19,17 +19,8 @@ export function TourItinerarySection({
         {stops.map((stop) => (
           <Card key={`${stop.order}-${stop.name}`} size="sm">
             <CardHeader>
-              <CardDescription>{t("itinerary.stopLabel", { order: stop.order })}</CardDescription>
               <CardTitle>{stop.name}</CardTitle>
             </CardHeader>
-            <CardContent className="space-y-2 text-muted-foreground">
-              <p>{stop.description}</p>
-              {typeof stop.durationMinutes === "number" && (
-                <p className="text-foreground">
-                  {t("itinerary.duration", { minutes: stop.durationMinutes })}
-                </p>
-              )}
-            </CardContent>
           </Card>
         ))}
       </ol>

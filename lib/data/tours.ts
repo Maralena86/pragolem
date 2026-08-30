@@ -324,68 +324,163 @@ If you are searching for private guided tours in Prague with genuine local exper
       maxGroupSize: 24,
       priceType: "free",
       meetingPoint: {
-        address: "Old Town Square, Prague 1",
+        address: "Staroměstské nám. 5, 110 00 Staré Město",
         description:
           "Under the Astronomical Clock, next to the Old Town Hall entrance.",
         latitude: 50.087,
         longitude: 14.4208,
-        googleMapsUrl: "https://maps.google.com/?q=50.087,14.4208",
+        googleMapsUrl: "https://www.google.com/maps/place/50°05'16.9%22N+14°25'14.3%22E/@50.0880329,14.4180755,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.0880329!4d14.4206504?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
       },
+    
+
       itinerary: [
         {
           order: 1,
-          name: "Old Town Square",
+          // name: "Old Town Square",
+          name: "Rudolfinum",
           description:
             "Origins of the medieval market square, civic power, and architectural layers from Gothic to Baroque.",
           durationMinutes: 25,
         },
         {
           order: 2,
-          name: "Astronomical Clock",
+          name: "Old Town Square",
+          // name: "Astronomical Clock",
           description:
             "How the clock works, what each dial means, and why it became Prague's most recognized symbol.",
           durationMinutes: 20,
         },
         {
           order: 3,
-          name: "Church of Our Lady before Týn",
+          // name: "Church of Our Lady before Týn",
+          name: "Prague Jewish Quarter",
           description:
             "Religious tensions, reform movements, and the square's role in confessional politics.",
           durationMinutes: 15,
         },
         {
           order: 4,
-          name: "Celetná Street & University Quarter",
+          // name: "Celetná Street & University Quarter",
+          name: "The Bethlehem Chapel",
           description:
             "Royal routes, Charles University, and the city as an intellectual center in Central Europe.",
           durationMinutes: 20,
         },
         {
           order: 5,
-          name: "Josefov Synagogues",
+          // name: "Josefov Synagogues",
+          name: "Týnský dvůr - Ungelt",
           description:
             "History of Prague's Jewish community through worship spaces, legal reforms, and urban change.",
           durationMinutes: 30,
         },
         {
           order: 6,
-          name: "Old Jewish Cemetery Area",
+          name: "Staroměstská radnice",
+          // name: "Old Jewish Cemetery Area",
           description:
             "Burial traditions, memory, and the preservation of one of Europe's most significant Jewish sites.",
           durationMinutes: 20,
         },
         {
           order: 7,
-          name: "Pařížská Avenue Contrast",
+          name: "The Old-New Synagogue",
+          // name: "Pařížská Avenue Contrast",
           description:
             "From old quarter streets to modern boulevard planning and the transformation of city identity.",
           durationMinutes: 15,
         },
         {
           order: 8,
-          name: "Charles Bridge Approach",
+          name: "History of Prague and some myths",
+          // name: "Charles Bridge Approach",
           description:
             "Strategic importance of river crossings and tips for exploring nearby viewpoints after the tour.",
+          durationMinutes: 15,
+        },
+        {
+          order: 9,
+          name: "How to read the astronomical clock",
+          // name: "Charles Bridge Approach",
+          description:
+            "",
+          durationMinutes: 15,
+        },
+        {
+          order: 10,
+          name: "How to avoid tourist traps",
+          // name: "Charles Bridge Approach",
+          description:
+            "",
+          durationMinutes: 15,
+        },
+        {
+          order: 11,
+          name: "Tips about Prague",
+          // name: "Charles Bridge Approach",
+          description:
+            "",
+          durationMinutes: 15,
+        },
+        {
+          order: 12,
+          name: "The House at the Black Madonna",
+          description:
+            "",
+          durationMinutes: 15,
+        },
+        {
+          order: 13,
+          name: "The Estates Theatre",
+          description:"",
+          durationMinutes: 15,
+        },
+        {
+          order: 14,
+          name: "Klementinum",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 15,
+          name: "Faculty of Arts",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 16,
+          name: "Prague Astronomical Clock",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 17,
+          name: "Karolinum",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 18,
+          name: "Spanish Synagogue",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 19,
+          name: "History of the Jewish people in Prague",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 20,
+          name: "History of the Hussite Wars",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 21,
+          name: "History of religion in the Czech lands",
+          description:"",          
           durationMinutes: 15,
         },
       ],
@@ -495,58 +590,151 @@ If you are searching for private guided tours in Prague with genuine local exper
       itinerary: [
         {
           order: 1,
-          name: "Place de la Vieille Ville",
+          // name: "Old Town Square",
+          name: "Rudolfinum",
           description:
-            "Lecture historique de la place: commerce médiéval, identité civique et architecture de différentes époques.",
+            "Origins of the medieval market square, civic power, and architectural layers from Gothic to Baroque.",
           durationMinutes: 25,
         },
         {
           order: 2,
-          name: "Horloge astronomique",
+          name: "Old Town Square",
+          // name: "Astronomical Clock",
           description:
-            "Comprendre son fonctionnement et sa portée symbolique dans l'histoire de Prague.",
+            "How the clock works, what each dial means, and why it became Prague's most recognized symbol.",
           durationMinutes: 20,
         },
         {
           order: 3,
-          name: "Église de Týn",
+          // name: "Church of Our Lady before Týn",
+          name: "Prague Jewish Quarter",
           description:
-            "Contexte religieux et tensions confessionnelles qui ont marqué la Bohême.",
+            "Religious tensions, reform movements, and the square's role in confessional politics.",
           durationMinutes: 15,
         },
         {
           order: 4,
-          name: "Rue Celetná et université",
+          // name: "Celetná Street & University Quarter",
+          name: "The Bethlehem Chapel",
           description:
-            "Anciennes routes royales, traditions universitaires et vie intellectuelle pragoise.",
+            "Royal routes, Charles University, and the city as an intellectual center in Central Europe.",
           durationMinutes: 20,
         },
         {
           order: 5,
-          name: "Synagogues de Josefov",
+          // name: "Josefov Synagogues",
+          name: "Týnský dvůr - Ungelt",
           description:
-            "Repères sur l'histoire de la communauté juive de Prague et ses transformations.",
+            "History of Prague's Jewish community through worship spaces, legal reforms, and urban change.",
           durationMinutes: 30,
         },
         {
           order: 6,
-          name: "Secteur du vieux cimetière juif",
+          name: "Staroměstská radnice",
+          // name: "Old Jewish Cemetery Area",
           description:
-            "Mémoire du lieu, traditions funéraires et enjeux de conservation patrimoniale.",
+            "Burial traditions, memory, and the preservation of one of Europe's most significant Jewish sites.",
           durationMinutes: 20,
         },
         {
           order: 7,
-          name: "Pařížská et mutation urbaine",
+          name: "The Old-New Synagogue",
+          // name: "Pařížská Avenue Contrast",
           description:
-            "Comparer l'ancien tissu urbain et les grands projets de modernisation.",
+            "From old quarter streets to modern boulevard planning and the transformation of city identity.",
           durationMinutes: 15,
         },
         {
           order: 8,
-          name: "Approche du Pont Charles",
+          name: "History of Prague and some myths",
+          // name: "Charles Bridge Approach",
           description:
-            "Rôle stratégique de la Vltava et conseils pour poursuivre la visite après le tour.",
+            "Strategic importance of river crossings and tips for exploring nearby viewpoints after the tour.",
+          durationMinutes: 15,
+        },
+        {
+          order: 9,
+          name: "How to read the astronomical clock",
+          // name: "Charles Bridge Approach",
+          description:
+            "",
+          durationMinutes: 15,
+        },
+        {
+          order: 10,
+          name: "How to avoid tourist traps",
+          // name: "Charles Bridge Approach",
+          description:
+            "",
+          durationMinutes: 15,
+        },
+        {
+          order: 11,
+          name: "Tips about Prague",
+          // name: "Charles Bridge Approach",
+          description:
+            "",
+          durationMinutes: 15,
+        },
+        {
+          order: 12,
+          name: "The House at the Black Madonna",
+          description:
+            "",
+          durationMinutes: 15,
+        },
+        {
+          order: 13,
+          name: "The Estates Theatre",
+          description:"",
+          durationMinutes: 15,
+        },
+        {
+          order: 14,
+          name: "Klementinum",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 15,
+          name: "Faculty of Arts",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 16,
+          name: "Prague Astronomical Clock",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 17,
+          name: "Karolinum",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 18,
+          name: "Spanish Synagogue",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 19,
+          name: "History of the Jewish people in Prague",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 20,
+          name: "History of the Hussite Wars",
+          description:"",          
+          durationMinutes: 15,
+        },
+        {
+          order: 21,
+          name: "History of religion in the Czech lands",
+          description:"",          
           durationMinutes: 15,
         },
       ],
@@ -656,58 +844,121 @@ If you are searching for private guided tours in Prague with genuine local exper
       itinerary: [
         {
           order: 1,
-          name: "Charles Bridge Entrance",
+          name: "Lennon Wall",
           description:
-            "Strategic role of the bridge and reading the river crossing as urban infrastructure.",
+            "Origines du pont et son rôle dans la circulation, le commerce et les cérémonies.",
           durationMinutes: 20,
         },
         {
           order: 2,
-          name: "Bridge Crossing Highlights",
+          name: "Černín Palace",
           description:
-            "Stories behind key statues, flood history, and ceremonial uses of the bridge.",
+            "Statues, inondations, restaurations et anecdotes historiques majeures.",
           durationMinutes: 20,
         },
         {
           order: 3,
-          name: "Lesser Town Riverfront",
+          name: "The Black Tower",
           description:
-            "Transition from mercantile Old Town to aristocratic and diplomatic Lesser Town.",
+            "Comprendre l'identité aristocratique et diplomatique du quartier.",
           durationMinutes: 15,
         },
         {
           order: 4,
-          name: "Nerudova Street",
+          name: "Charles Bridge",
           description:
-            "House signs, everyday life in the castle district, and social structure in early modern Prague.",
+            "Enseignes de maisons, métiers et quotidien des habitants proches du Château.",
           durationMinutes: 25,
         },
         {
           order: 5,
-          name: "Prague Castle Courtyards",
+          name: "Prague Castle",
           description:
-            "Evolution of the castle from medieval power center to modern state complex.",
+            "Grandes périodes du site, de la forteresse médiévale au complexe étatique actuel.",
           durationMinutes: 35,
         },
         {
           order: 6,
-          name: "St. Vitus Cathedral Exterior",
+          name: "CHistory and General Information about Saint Vitus Cathedral",
           description:
-            "Architecture, symbolism, coronation rites, and practical visiting advice.",
+            "Lecture historique et symbolique, avec conseils pratiques de visite.",
           durationMinutes: 25,
         },
         {
           order: 7,
-          name: "Castle Viewpoints",
+          name: "History and General Information about Lesser Town",
           description:
-            "Panoramic interpretation of Prague's districts for easier self-guided exploration afterward.",
+            "Panorama sur Prague pour situer les quartiers et préparer vos visites suivantes.",
           durationMinutes: 20,
         },
         {
           order: 8,
-          name: "Lesser Town Wrap-Up",
+          name: "General Prague information and tips",
           description:
-            "Recommendations for gardens, cafes, and return routes based on your schedule.",
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 9,
+          name: "Loreto",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 10,
+          name: "Virgin Mary under Chain",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 11,
+          name: "St. George's Basilica",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 12,
+          name: "St. Vitus Cathedral",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 13,
+          name: "History and General Information about Prague Castle",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 14,
+          name: "Walk through Lesser Town",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 15,
+          name: "Visit to the Castle Gardens (in summer)",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 16,
+          name: "Histoire et Information générale sur le Pont Charles",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 17,
+          name: "How to avoid tourist traps",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
           durationMinutes: 10,
         },
       ],
@@ -808,7 +1059,7 @@ If you are searching for private guided tours in Prague with genuine local exper
       maxGroupSize: 24,
       priceType: "free",
       meetingPoint: {
-        address: "Krizovnicke namesti, Prague 1",
+        address: "Malá Strana, 118 00 Prague 1",
         description: "Au pied de la statue de Charles IV, pres de la tour du pont.",
         latitude: 50.0865,
         longitude: 14.4113,
@@ -817,56 +1068,119 @@ If you are searching for private guided tours in Prague with genuine local exper
       itinerary: [
         {
           order: 1,
-          name: "Départ Pont Charles",
+          name: "Lennon Wall",
           description:
             "Origines du pont et son rôle dans la circulation, le commerce et les cérémonies.",
           durationMinutes: 20,
         },
         {
           order: 2,
-          name: "Traversée commentée",
+          name: "Černín Palace",
           description:
             "Statues, inondations, restaurations et anecdotes historiques majeures.",
           durationMinutes: 20,
         },
         {
           order: 3,
-          name: "Entrée dans Malá Strana",
+          name: "The Black Tower",
           description:
             "Comprendre l'identité aristocratique et diplomatique du quartier.",
           durationMinutes: 15,
         },
         {
           order: 4,
-          name: "Rue Nerudova",
+          name: "Charles Bridge",
           description:
             "Enseignes de maisons, métiers et quotidien des habitants proches du Château.",
           durationMinutes: 25,
         },
         {
           order: 5,
-          name: "Cours du Château",
+          name: "Prague Castle",
           description:
             "Grandes périodes du site, de la forteresse médiévale au complexe étatique actuel.",
           durationMinutes: 35,
         },
         {
           order: 6,
-          name: "Cathédrale Saint-Guy (extérieur)",
+          name: "CHistory and General Information about Saint Vitus Cathedral",
           description:
             "Lecture historique et symbolique, avec conseils pratiques de visite.",
           durationMinutes: 25,
         },
         {
           order: 7,
-          name: "Belvédères du Château",
+          name: "History and General Information about Lesser Town",
           description:
             "Panorama sur Prague pour situer les quartiers et préparer vos visites suivantes.",
           durationMinutes: 20,
         },
         {
           order: 8,
-          name: "Retour Malá Strana",
+          name: "General Prague information and tips",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 9,
+          name: "Loreto",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 10,
+          name: "Virgin Mary under Chain",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 11,
+          name: "St. George's Basilica",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 12,
+          name: "St. Vitus Cathedral",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 13,
+          name: "History and General Information about Prague Castle",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 14,
+          name: "Walk through Lesser Town",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 15,
+          name: "Visit to the Castle Gardens (in summer)",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 16,
+          name: "Histoire et Information générale sur le Pont Charles",
+          description:
+            "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
+          durationMinutes: 10,
+        },
+        {
+          order: 17,
+          name: "How to avoid tourist traps",
           description:
             "Conseils personnalisés: jardins, cafés, musées et itinéraires de fin de journée.",
           durationMinutes: 10,
