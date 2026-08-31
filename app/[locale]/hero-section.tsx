@@ -36,7 +36,7 @@ export function HeroSection({
 							alt=""
 							width={50}
 							height={50}
-							className="transition-transform duration-300 hover:scale-110 hover:-rotate-6"
+							className="w-[50px] h-[50px] transition-transform duration-300 hover:scale-110 hover:-rotate-6"
 							aria-hidden="true"
 						/>
 					</div>
