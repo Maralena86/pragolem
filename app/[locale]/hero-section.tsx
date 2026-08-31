@@ -77,12 +77,12 @@ export function HeroSection({
 					</CardHeader>
 				</Card>
 			</div>
-			<div className="relative w-full h-64 md:h-full">
+			<div className="relative w-full h-100 md:h-full">
 				<Image
 					src="/images/pragolem_guides_prague_tours.webp"
 					alt=""
 					fill
-					className="object-contain"
+					className="object-cover md:object-contain"
 					sizes="(max-width: 768px) 100vw, 33vw"
 				/>
 			</div>
