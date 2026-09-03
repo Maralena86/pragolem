@@ -274,7 +274,7 @@
       "fullNamePlaceholder": "Your full name",
       "emailLabel": "Email",
       "emailPlaceholder": "you@example.com",
-      "phoneLabel": "Phone (optional)",
+      "phoneLabel": "Phone",
       "phonePlaceholder": "+420 ...",
       "specialRequestsLabel": "Special requests",
       "specialRequestsPlaceholder": "Tell us anything we should know before the tour.",
@@ -291,6 +291,7 @@
         "requiredLanguage": "Please select a language.",
         "requiredFullName": "Please enter your full name.",
         "fullNameTooShort": "Please provide at least 2 characters for your name.",
+        "requiredPhone": "Please select a phone number.",
         "requiredEmail": "Please enter your email address.",
         "invalidEmail": "Please enter a valid email address.",
         "termsRequired": "You must accept the terms before submitting."

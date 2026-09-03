@@ -45,7 +45,7 @@ interface BookingFormValues {
 type BookingFormErrors = Partial<Record<keyof BookingFormValues, string>>;
 type BookingFormTranslator = ReturnType<typeof useTranslations>;
 
-const PARTICIPANT_OPTIONS = [1, 2, 3, 4, 5, 6] as const;
+// const PARTICIPANT_OPTIONS = [1, 2, 3, 4, 5, 6] as const;
 
 const TIME_SLOT_OPTIONS = [
 	{ value: "09:00", labelKey: "timeSlots.slot0900" },
@@ -102,6 +102,7 @@ function validateBookingValues(
 	const errors: BookingFormErrors = {};
 	const normalizedName = values.fullName.trim();
 	const normalizedEmail = values.email.trim();
+	const normalizedPhone = values.phone.trim();
 
 	if (!values.tourSlug) {
 		errors.tourSlug = t("validation.requiredTour");
@@ -135,6 +136,10 @@ function validateBookingValues(
 		errors.email = t("validation.requiredEmail");
 	} else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizedEmail)) {
 		errors.email = t("validation.invalidEmail");
+	}
+
+	if (!normalizedPhone) {
+		errors.phone = t("validation.requiredPhone");
 	}
 
 	if (!values.termsAccepted) {
@@ -337,7 +342,7 @@ export function BookingForm({
 				</div>
 
 				<div className="grid gap-4 sm:grid-cols-2">
-					<Field>
+					{/* <Field>
 						<FieldLabel htmlFor="booking-participants">
 							{t("participantsLabel")}
 						</FieldLabel>
@@ -371,6 +376,38 @@ export function BookingForm({
 								),
 							})}
 						</FieldDescription>
+						<FieldError>{errors.participants}</FieldError>
+					</Field> */}
+					<Field>
+						<FieldLabel htmlFor="booking-participants">
+							{t("participantsLabel")}
+						</FieldLabel>
+						<Input
+							id="booking-participants"
+							name="participants"
+							type="number"
+							min="1"
+							placeholder={t("participantsPlaceholder")}
+							value={values.participants}
+							onChange={(event) =>
+								updateField("participants", event.target.value)
+							}
+							aria-invalid={Boolean(errors.participants)}
+						/>
+						{Number(values.participants) > 6 && (
+							<FieldDescription>
+								{t.rich("participantsPrivateNote", {
+									contactLink: (chunks) => (
+										<Link
+											href="/contact"
+											className="underline underline-offset-4"
+										>
+											{chunks}
+										</Link>
+									),
+								})}
+							</FieldDescription>
+						)}
 						<FieldError>{errors.participants}</FieldError>
 					</Field>
 
@@ -442,7 +479,9 @@ export function BookingForm({
 							placeholder={t("phonePlaceholder")}
 							value={values.phone}
 							onChange={(event) => updateField("phone", event.target.value)}
+							aria-invalid={Boolean(errors.phone)}
 						/>
+						<FieldError>{errors.phone}</FieldError>
 					</Field>
 				</div>
 

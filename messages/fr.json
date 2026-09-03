@@ -274,7 +274,7 @@
       "fullNamePlaceholder": "Votre nom complet",
       "emailLabel": "Email",
       "emailPlaceholder": "vous@exemple.com",
-      "phoneLabel": "Téléphone (optionnel)",
+      "phoneLabel": "Téléphone",
       "phonePlaceholder": "+420 ...",
       "specialRequestsLabel": "Demandes particulières",
       "specialRequestsPlaceholder": "Indiquez les informations utiles avant la visite.",
@@ -293,6 +293,7 @@
         "fullNameTooShort": "Le nom doit contenir au moins 2 caractères.",
         "requiredEmail": "Veuillez saisir votre adresse email.",
         "invalidEmail": "Veuillez saisir une adresse email valide.",
+        "requiredPhone": "Veuillez sélectionner un téléphone.",
         "termsRequired": "Vous devez accepter les conditions avant l'envoi."
       }
     }

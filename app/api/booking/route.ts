@@ -86,13 +86,16 @@ export async function POST(request: Request) {
       `,
     });
 
+    
     if (clientEmail.error || internalEmail.error) {
-      console.error("[BookingAPI] Resend error:", clientEmail.error, internalEmail.error);
+      console.error("[BookingAPI] Client email error:", JSON.stringify(clientEmail.error, null, 2));
+      console.error("[BookingAPI] Internal email error:", JSON.stringify(internalEmail.error, null, 2));
       return NextResponse.json(
         { success: false, error: "Failed to send confirmation email" },
-        { status: 502 }
+        { status: 502 },
       );
     }
+    
 
     return NextResponse.json({ success: true });
   } catch (error) {
