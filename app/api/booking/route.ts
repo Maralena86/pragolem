@@ -223,7 +223,7 @@ export async function POST(request: Request) {
 					<div style="background-color: #123865; padding: 32px 24px; text-align: center;">
           			<div style="background-color: #123865; padding: 32px 24px; text-align: center;">
 						<img
-							src="http://localhost:3000/pragolem-logo.png"
+							src="https://pragolem-rho.vercel.app/pragolem-logo.png"
 							alt="Pragolem"
 							width="60"
 							height="60"
