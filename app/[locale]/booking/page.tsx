@@ -14,13 +14,14 @@ import { BookingSidebar } from "./booking-sidebar";
  * Normalizes tour records into lightweight booking select options.
  */
 function buildBookingTourOptions(tours: Tour[]): BookingTourOption[] {
-  return tours
-    .map((tour) => ({
-      slug: tour.slug[tour.locale],
-      title: tour.attributes.title,
-      priceType: tour.attributes.priceType,
-    }))
-    .sort((tourA, tourB) => tourA.title.localeCompare(tourB.title));
+	return tours
+		.map((tour) => ({
+			id: tour.id,
+			slug: tour.slug[tour.locale],
+			title: tour.attributes.title,
+			priceType: tour.attributes.priceType,
+		}))
+		.sort((tourA, tourB) => tourA.title.localeCompare(tourB.title));
 }
 
 /**
