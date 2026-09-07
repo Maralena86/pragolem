@@ -306,18 +306,7 @@ If you are searching for private guided tours in Prague with genuine local exper
     attributes: {
       title: "Walking Tour: Old Town & Jewish Quarter",
       shortDescription:
-        // "A 3-hour walking tour through Prague Old Town and the historic Jewish Quarter with certified local guides.",
         "Our tour of the Old Town of Prague and the Jewish Quarter covers a lot of Medieval history - from when Prague was the capital of an empire -, as well as the fascinating history of the Jewish Quarter.",
-//       longDescription: `If you are looking for a walking tour in Prague that combines major landmarks with meaningful historical context, this Old Town and Jewish Quarter route is the one most visitors start with. Over approximately three hours, we walk at an easy pace through the medieval heart of the city, from Old Town Square to the lanes of Josefov, then toward the Charles Bridge approach. This is not a memorized speech. It is a guided conversation led by licensed local guides who adapt the rhythm and level of detail to the group in front of them.
-
-// We begin in Old Town Square, where Prague's layered history is immediately visible. Gothic towers, Baroque facades, merchant houses, and civic buildings all share one public stage. You will understand why the square became a political theater, a market crossroads, and a symbol of Czech identity. At the Astronomical Clock, we go beyond the mechanical curiosity and explain how timekeeping, religion, and urban power connected in medieval Prague. We also cover key episodes that visitors often hear about but rarely receive in chronological order, so the city finally makes sense when you continue exploring on your own.
-
-// From there, we move into the Jewish Quarter, one of the most emotionally important areas in Prague. Instead of rushing between monuments, we explain how Josefov evolved over centuries: the role of Jewish merchants and scholars, the pressure of segregation laws, later reforms, and the difficult twentieth-century chapters that still shape memory in the city today. You will see the synagogues and the area surrounding the Old Jewish Cemetery with context that helps you read the architecture as a historical document. This part of the walk is especially valuable for visitors who want more than photo stops.
-
-// A strong point of this Prague free tour is that we connect local stories to broader European history. You will hear how Bohemian events intersected with Habsburg politics, religious conflict, and the shifting balance of power across the continent. The result is practical and memorable: you leave with clear orientation, key dates that actually stick, and neighborhood recommendations for food, coffee, and quieter streets nearby.
-
-// This route works well for first-time visitors, solo travelers, couples, and families with teens who enjoy stories. Because it is a pay-what-you-wish experience, you decide the value at the end based on your experience and budget. If you are comparing Prague guided tours and want a warm, intelligent introduction to the city center, this is the free walking tour Prague guests consistently recommend.`,
-
       longDescription: `We cover the history of the Old Town and Jewish Quarter start to finish: a complete tour with a specific emphasis on the Medieval Golden Age of the city. Including the more obvious highlights of things like the Astronomical Clock, but also making sure we don't miss the blood and guts, the ghosts, the tyrants - the gory details that have given birth to the Mother of Cities.
 
       We start on the Old Town Square, and then move through the ages to take in the architecture, the various changes that have altered the appearance of the city, and what lies behind. From there, we progress through the Jewish Quarter, full of legends that blend into historical fact.
@@ -335,12 +324,12 @@ If you are searching for private guided tours in Prague with genuine local exper
       maxGroupSize: 24,
       priceType: "free",
       meetingPoint: {
-        address: "Staroměstské nám. 5, 110 00 Staré Město",
+        address: "Old Town Square,",
         description:
-          "Under the Astronomical Clock, next to the Old Town Hall entrance.",
+          " opposite the Cartier store.",
         latitude: 50.087,
         longitude: 14.4208,
-        googleMapsUrl: "https://www.google.com/maps/place/50°05'16.9%22N+14°25'14.3%22E/@50.0880329,14.4180755,17z/data=!3m1!4b1!4m4!3m3!8m2!3d50.0880329!4d14.4206504?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+        googleMapsUrl: "https://www.google.com/maps/place/Pragolem/@50.0880329,14.4206504,16z/data=!3m1!4b1!4m6!3m5!1s0x470b95b05e564ad7:0x424f120f71a9b415!8m2!3d50.0880329!4d14.4206504!16s%2Fg%2F11xl02djfm!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
       },
     
 
@@ -599,12 +588,12 @@ If you are searching for private guided tours in Prague with genuine local exper
       maxGroupSize: 24,
       priceType: "free",
       meetingPoint: {
-        address: "Staromestske namesti, Prague 1",
+        address: "Place de la vieille ville face au magasin Cartier",
         description:
-          "Sous l'horloge astronomique, a cote de l'entrée de l'ancien hotel de ville.",
+          "",
         latitude: 50.087,
         longitude: 14.4208,
-        googleMapsUrl: "https://maps.google.com/?q=50.087,14.4208",
+        googleMapsUrl: "https://www.google.com/maps/place/Pragolem/@50.0880329,14.4206504,16z/data=!3m1!4b1!4m6!3m5!1s0x470b95b05e564ad7:0x424f120f71a9b415!8m2!3d50.0880329!4d14.4206504!16s%2Fg%2F11xl02djfm!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
       },
       itinerary: [
         {
@@ -829,18 +818,9 @@ If you are searching for private guided tours in Prague with genuine local exper
     attributes: {
       title: "Walking Tour: Prague Castle, Lesser Town & Charles Bridge",
       shortDescription:
-        // "Cross Charles Bridge and explore Lesser Town and Prague Castle courtyards on a 3-hour pay-what-you-wish tour.",
         "Come see the glamorous, palatial settings of Prague Castle, and then descend with us to the mystical Lesser Town, the real soul of Prague - and then the Bridge: the symbol of the city, and a beguiling example of Medieval architecture.",
       longDescription: 
-//       `This route is designed for travelers who want to understand Prague beyond the Old Town postcard. On this walking tour Prague Castle and Lesser Town become a connected story, not isolated monuments. Over about three hours, we walk from the Charles Bridge area through Malá Strana, climb toward the castle district, and read the city as a political and architectural landscape. You get practical orientation, historical context, and enough local detail to keep exploring with confidence after the tour ends.
 
-// We usually begin near the Charles Bridge approach, where we explain why this crossing mattered for trade, ceremony, and military logistics. Instead of only naming statues, we decode how the bridge functioned in daily life and how floods, repairs, and regime changes altered the city around it. As we continue into Lesser Town, you will notice a different urban rhythm from Old Town: narrower streets, baroque facades, embassy buildings, and hillside views that reveal the geography of Prague in a single glance.
-
-// On Nerudova Street, we discuss house signs, craft traditions, and the social hierarchy of residents who served the castle economy. This area is ideal for understanding how people actually lived in historical Prague. From there we reach Prague Castle, where we cover the major courtyards and key institutions without rushing. You will learn how the site changed from medieval stronghold to imperial seat and modern presidential complex. We include clear explanations of what is free to access, what requires tickets, and how to avoid peak-time bottlenecks if you return independently.
-
-// At St. Vitus Cathedral's exterior and open sections, we focus on symbolism and statehood: coronations, dynastic legitimacy, and the visual language of Gothic revival. We also connect major Czech events to broader European developments, so the timeline feels coherent rather than fragmented. Guests often tell us this part of the walk makes everything else in Prague click into place.
-
-// Because the experience is pay-what-you-wish, it stays flexible and traveler-friendly. You choose your contribution at the end based on value, interest, and budget. This Prague Castle walking tour is especially good for visitors who like rich storytelling, elevated viewpoints, and practical tips on where to eat or continue walking in Lesser Town. If you want a high-value free tour Prague travelers recommend for depth and clarity, this is the route to book.`,
       `We start with a panoramic view of the city, before immersing ourselves in the Imperial history of Prague. Get to know Prague from where it all started. The Castle of the genesis of the city, filled with anecdotes, rumours, gossip, myths and legends - but also the end of the story. The Castle the seat of presidential power.
       
       From here, we descend into the murky, grim, fascinating, creepy, but, above all, beautiful Lesser Town. This is the seductive face of the city - the piece where you can get behind the facades of the tourist traps, the souvenir shops and the dreaded trdelník. It is a special feeling in the Lesser Town.
@@ -856,11 +836,11 @@ If you are searching for private guided tours in Prague with genuine local exper
       maxGroupSize: 24,
       priceType: "free",
       meetingPoint: {
-        address: "Krizovnicke namesti, Prague 1",
-        description: "At the Charles IV statue near the Old Town Bridge Tower.",
+        address: "Exit of the Malostranská metro ",
+        description: "Malostranská",
         latitude: 50.0865,
         longitude: 14.4113,
-        googleMapsUrl: "https://maps.google.com/?q=50.0865,14.4113",
+        googleMapsUrl: "https://www.google.com/maps/search/50.090793,+14.409621?entry=tts&g_ep=EgoyMDI1MDYyMy4yIPu8ASoASAFQAw%3D%3D&skid=e19b13e3-1c6f-4fb2-ae68-59f2276a3343",
       },
       itinerary: [
         {
@@ -1061,18 +1041,9 @@ If you are searching for private guided tours in Prague with genuine local exper
     attributes: {
       title: "Tour Château de Prague, Malá Strana & Pont Charles",
       shortDescription:
-        // "Traversez le Pont Charles puis découvrez Malá Strana et le Château de Prague lors d'une visite guidée gratuite de 3 heures.",
+     
         "Découvrez les somptueux palais et les décors grandioses du Château de Prague, puis descendez avec nous vers la mystérieuse Mala Strana, véritable âme de Prague. Nous poursuivrons jusqu’au Pont Charles, symbole emblématique de la ville et remarquable chef-d’œuvre de l’architecture médiévale.",
       longDescription: 
-//       `Ce parcours s'adresse aux voyageurs qui veulent comprendre Prague au-dela du centre historique classique. Pendant environ trois heures, nous relions le Pont Charles, Malá Strana et le Château de Prague dans un seul récit cohérent. Vous ne visitez pas une suite de monuments isolés: vous lisez la ville comme un ensemble politique, religieux et urbain. Le format est un tour a prix libre, donc accessible et flexible, avec un vrai niveau d'exigence dans les explications.
-
-// Le départ se fait pres de l'accès au Pont Charles. Nous expliquons pourquoi ce pont a été central pour le commerce, les processions officielles et le contrôle de la ville. Au fil de la traversée, vous découvrez l'histoire des crues, des restaurations et des symboles qui jalonnent l'ouvrage. Puis nous entrons dans Malá Strana, quartier au caractère tres différent de la Vieille Ville: rues plus étroites, palais baroques, ambassades et perspectives qui révèlent immédiatement la topographie de Prague.
-
-// Sur la rue Nerudova, nous parlons de la vie quotidienne d'autrefois: enseignes de maisons, métiers, hiérarchie sociale et économie liée au Château. Cette partie rend l'histoire concrete, car elle montre comment les habitants vivaient réellement dans la ville historique. Ensuite, nous montons vers le Château de Prague et ses cours, en clarifiant ce qui est libre d'accès, ce qui nécessite un billet, et comment organiser une seconde visite sans perdre de temps dans les files.
-
-// Devant la cathédrale Saint-Guy et les zones gratuites, nous abordons la question du pouvoir: cérémonies, légitimité dynastique, mémoire nationale et représentation de l'État tchèque. Nous relions aussi les événements locaux aux évolutions européennes, pour que la chronologie devienne claire et utile. Beaucoup de visiteurs francophones nous disent que cette visite leur donne enfin une vision d'ensemble de Prague.
-
-// Comme pour tous les tours Pragolem, vous décidez du montant a la fin selon votre satisfaction. Ce format convient tres bien aux voyageurs curieux qui veulent un guide francophone à Prague, des histoires solides, des points de vue superbes et des recommandations concrètes pour la suite du séjour. Si vous cherchez une visite du Château de Prague en français qui allie ambiance, rigueur et accessibilité, cet itinéraire est un excellent choix.`,
       `Nous commençons par une vue panoramique sur la ville, avant de nous plonger dans l’histoire impériale de Prague. Découvrez Prague depuis l’endroit où tout a commencé : le Château, berceau de la ville, riche en anecdotes, rumeurs, commérages, mythes et légendes — mais aussi là où l’histoire se poursuit, puisque le Château est aujourd’hui encore le siège du pouvoir présidentiel.
 
       De là, nous descendons vers la Mala Strana, mystérieuse, sombre, fascinante, parfois inquiétante, mais surtout magnifique. C’est le visage le plus séduisant de la ville — celui qui permet de voir au-delà des façades, des pièges à touristes, des boutiques de souvenirs et du fameux, parfois redouté, trdelník. Il y a quelque chose de particulier à Mala Strana.
@@ -1088,12 +1059,11 @@ If you are searching for private guided tours in Prague with genuine local exper
       maxGroupSize: 24,
       priceType: "free",
       meetingPoint: {
-        address: "Malá Strana, 118 00 Prague 1",
-        description: "Au pied de la statue de Charles IV, pres de la tour du pont.",
+        address: "Malostranská ",
+        description: "Sortie du métro Malostranská ",
         latitude: 50.0865,
         longitude: 14.4113,
-        googleMapsUrl: "https://maps.google.com/?q=50.0865,14.4113",
-      },
+        googleMapsUrl: "https://www.google.com/maps/search/50.090793,+14.409621?entry=tts&g_ep=EgoyMDI1MDYyMy4yIPu8ASoASAFQAw%3D%3D&skid=e19b13e3-1c6f-4fb2-ae68-59f2276a3343"},
       itinerary: [
         {
           order: 1,

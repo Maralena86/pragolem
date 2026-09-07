@@ -24,9 +24,10 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 
 export interface BookingTourOption {
-	slug: string;
-	title: string;
-	priceType: "free" | "paid";
+  id: string;
+  slug: string;
+  title: string;
+  priceType: "free" | "paid";
 }
 
 interface BookingFormValues {
