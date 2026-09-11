@@ -2,6 +2,7 @@ import { Resend } from "resend";
 import { NextResponse } from "next/server";
 import { toursData } from "@/lib/data/tours";
 import { tourEsTranslations } from "@/lib/data/tours-es";
+import { getSiteUrl } from "@/lib/env";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -32,6 +33,18 @@ const languageEnglishNames: { [key: string]: string } = {
 	es: "Spanish",
 	fr: "French",
 };
+
+/**
+ * Retourne le chemin localisé de la page CGU.
+ * L'espagnol n'ayant pas de page dédiée, on redirige vers la version anglaise.
+ */
+function getLocalizedTermsUrl(language: string): string {
+	const domain = getSiteUrl();
+	const isFrench = language === "fr";
+	const localeSegment = isFrench ? "fr" : "en";
+	const termsPath = isFrench ? "conditions-generales" : "terms-conditions";
+	return `${domain}/${localeSegment}/${termsPath}`;
+}
 
 function findTourBySlug(tourSlug: string) {
 	return (
@@ -81,6 +94,7 @@ function getTourDisplayInfo(tourSlug: string, requestedLanguage: string) {
 export async function POST(request: Request) {
 	if (!process.env.RESEND_API_KEY) {
 		console.error("[BookingAPI] Missing RESEND_API_KEY environment variable");
+		
 		return NextResponse.json(
 			{ success: false, error: "Server configuration error" },
 			{ status: 500 },
@@ -127,6 +141,7 @@ export async function POST(request: Request) {
 		} = getTourDisplayInfo(tourSlug, language);
 		const languageDisplay = languageNativeNames[language] ?? language;
 		const languageForGuides = languageEnglishNames[language] ?? language;
+		const termsUrl = getLocalizedTermsUrl(language);
 
 		// Templates de traduction pour l'email CLIENT (fr / en / es)
 		const clientEmailTranslations = {
@@ -149,6 +164,7 @@ export async function POST(request: Request) {
 				followUp:
 					"📞 Nous vous recontacterons rapidement pour confirmer les détails de votre visite.",
 				footer: "Pragolem — Découvrez Prague autrement",
+				termsLinkText: "Conditions générales de vente",
 			},
 			en: {
 				subject: (fullName: string) =>
@@ -169,6 +185,7 @@ export async function POST(request: Request) {
 				followUp:
 					"📞 We'll get back to you shortly to confirm the details of your visit.",
 				footer: "Pragolem — Discover Prague differently",
+				termsLinkText: "Terms and Conditions",
 			},
 			es: {
 				subject: (fullName: string) =>
@@ -189,12 +206,14 @@ export async function POST(request: Request) {
 				followUp:
 					"📞 Nos pondremos en contacto contigo pronto para confirmar los detalles de tu visita.",
 				footer: "Pragolem — Descubre Praga de otra manera",
+				termsLinkText: "Terminos y condiciones", 
 			},
 		} as const;
 
 		const clientLang =
 			language === "es" ? "es" : language === "fr" ? "fr" : "en";
 		const tc = clientEmailTranslations[clientLang];
+		
 
 		// Bloc HTML du point de rencontre (email client)
 		const meetingPointBlock = meetingAddress
@@ -221,15 +240,15 @@ export async function POST(request: Request) {
 			html: `
 				<div style="font-family: 'Helvetica Neue', Arial, sans-serif; max-width: 600px; margin: 0 auto; background-color: #f9fafb;">
 					<div style="background-color: #123865; padding: 32px 24px; text-align: center;">
-          			<div style="background-color: #123865; padding: 32px 24px; text-align: center;">
+          			<div style="background-color: #123865; padding-bottom: 32px; text-align: center;">
 						<img
 							src="https://pragolem-rho.vercel.app/pragolem-logo.png"
 							alt="Pragolem"
 							width="60"
 							height="60"
-							style="display: block; margin: 0 auto 12px;"
+							style="display: block; margin: 0 auto 2px;"
 						/>
-						<h1 style="color: #ffffff; margin: 0; font-size: 24px;">Pragolem</h1>
+						<h1 style="color: #4a719c; margin: 0; font-size: 24px;">Pragolem</h1>
 						<p style="color: #a8c4de; margin: 8px 0 0; font-size: 14px;">Prague Tours & Guides</p>
 					</div>
 
@@ -281,9 +300,9 @@ export async function POST(request: Request) {
 							<p style="margin: 0; color: #123865; font-size: 14px;">${tc.followUp}</p>
 						</div>
 					</div>
-
 					<div style="text-align: center; padding: 24px; color: #9ca3af; font-size: 12px;">
-						<p style="margin: 0;">${tc.footer}</p>
+						<p style="margin: 0 0 8px;">${tc.footer}</p>
+						<a href="${termsUrl}" style="color: #9ca3af; text-decoration: underline;">${tc.termsLinkText}</a>
 					</div>
 				</div>
 			`,
