@@ -14,60 +14,62 @@ import { BookingSidebar } from "./booking-sidebar";
  * Normalizes tour records into lightweight booking select options.
  */
 function buildBookingTourOptions(tours: Tour[]): BookingTourOption[] {
-	return tours
-		.map((tour) => ({
-			id: tour.id,
-			slug: tour.slug[tour.locale],
-			title: tour.attributes.title,
-			priceType: tour.attributes.priceType,
-		}))
-		.sort((tourA, tourB) => tourA.title.localeCompare(tourB.title));
+  return tours
+    .map((tour) => ({
+      id: tour.id,
+      slug: tour.slug[tour.locale],
+      priceType: tour.attributes.priceType,
+      timeSlots: tour.attributes.timeSlots ?? [],
+      isPrivate: tour.attributes.isPrivate ?? false,
+      title: tour.attributes.title,
+    }))
+    .sort((tourA, tourB) => tourA.title.localeCompare(tourB.title));
 }
 
 /**
  * Builds localized SEO metadata for the booking landing page.
  */
 export async function generateMetadata({
-  params,
+	params,
 }: {
-  params: Promise<{ locale: string }>;
+	params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
-  const localeCode = toLocaleCode(locale);
+	const { locale } = await params;
+	const localeCode = toLocaleCode(locale);
 
-  const [t, siteConfig] = await Promise.all([
-    getTranslations({ locale: localeCode, namespace: "BookingPage.meta" }),
-    getSiteConfig(),
-  ]);
+	const [t, siteConfig] = await Promise.all([
+		getTranslations({ locale: localeCode, namespace: "BookingPage.meta" }),
+		getSiteConfig(),
+	]);
 
-  const baseUrl = getSiteUrl();
-  const canonicalPath = localeCode === "fr" ? "reservation" : "booking";
-  const canonical = `${baseUrl}/${localeCode}/${canonicalPath}`;
+	const baseUrl = getSiteUrl();
+	const canonicalPath = localeCode === "fr" ? "reservation" : "booking";
+	const canonical = `${baseUrl}/${localeCode}/${canonicalPath}`;
 
-  return {
-    title: t("title"),
-    description: t("description"),
-    alternates: {
-      canonical,
-      languages: {
-        en: `${baseUrl}/en/booking`,
-        fr: `${baseUrl}/fr/reservation`,
-      },
-    },
-    openGraph: {
-      title: t("title"),
-      description: t("description"),
-      url: canonical,
-      siteName: siteConfig.attributes.siteName,
-      locale: localeCode,
-      type: "website",
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: t("title"),
-      description: t("description"),
-    },
-  };
+	return {
+		title: t("title"),
+		description: t("description"),
+		alternates: {
+			canonical,
+			languages: {
+				en: `${baseUrl}/en/booking`,
+				fr: `${baseUrl}/fr/reservation`,
+			},
+		},
+		openGraph: {
+			title: t("title"),
+			description: t("description"),
+			url: canonical,
+			siteName: siteConfig.attributes.siteName,
+			locale: localeCode,
+			type: "website",
+		},
+		twitter: {
+			card: "summary_large_image",
+			title: t("title"),
+			description: t("description"),
+		},
+	};
 }
 
 /**
@@ -75,42 +77,51 @@ export async function generateMetadata({
  * contact shortcuts for high-intent users.
  */
 export default async function BookingPage({
-  params,
+	params,
 }: {
-  params: Promise<{ locale: string }>;
+	params: Promise<{ locale: string }>;
 }) {
-  const { locale } = await params;
-  const localeCode = toLocaleCode(locale);
-  setRequestLocale(localeCode);
+	const { locale } = await params;
+	const localeCode = toLocaleCode(locale);
+	setRequestLocale(localeCode);
 
-  const [t, tours, siteConfig] = await Promise.all([
-    getTranslations("BookingPage"),
-    getTours(localeCode),
-    getSiteConfig(),
-  ]);
+	const [t, tours, siteConfig] = await Promise.all([
+		getTranslations("BookingPage"),
+		getTours(localeCode),
+		getSiteConfig(),
+	]);
 
-  const tourOptions = buildBookingTourOptions(tours);
-  const phoneHref = buildPhoneHref(siteConfig.attributes.contact.phone);
-  const whatsappHref =
-    siteConfig.attributes.socialLinks.find((socialLink) => socialLink.network === "whatsapp")?.url ??
-    `https://wa.me/${siteConfig.attributes.contact.whatsapp.replace(/\D/g, "")}`;
+	const tourOptions = buildBookingTourOptions(tours);
+	const phoneHref = buildPhoneHref(siteConfig.attributes.contact.phone);
+	const whatsappHref =
+		siteConfig.attributes.socialLinks.find(
+			(socialLink) => socialLink.network === "whatsapp",
+		)?.url ??
+		`https://wa.me/${siteConfig.attributes.contact.whatsapp.replace(/\D/g, "")}`;
 
-  return (
-    <main id="main-content" className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-10 sm:px-6 sm:py-12">
-      <BookingHeroSection t={t} />
+	return (
+		<main
+			id="main-content"
+			className="mx-auto flex w-full max-w-6xl flex-col gap-8 px-4 py-10 sm:px-6 sm:py-12"
+		>
+			<BookingHeroSection t={t} />
 
-      <section className="grid gap-6 lg:grid-cols-[1fr_340px]">
-        <BookingFormCard t={t} tourOptions={tourOptions} defaultLanguage={localeCode} />
+			<section className="grid gap-6 lg:grid-cols-[1fr_340px]">
+				<BookingFormCard
+					t={t}
+					tourOptions={tourOptions}
+					defaultLanguage={localeCode}
+				/>
 
-        <BookingSidebar
-          t={t}
-          bookingNotice={siteConfig.attributes.bookingNotice[localeCode]}
-          phoneHref={phoneHref}
-          phoneDisplay={siteConfig.attributes.contact.phone}
-          whatsappHref={whatsappHref}
-          email={siteConfig.attributes.contact.email}
-        />
-      </section>
-    </main>
-  );
+				<BookingSidebar
+					t={t}
+					bookingNotice={siteConfig.attributes.bookingNotice[localeCode]}
+					phoneHref={phoneHref}
+					phoneDisplay={siteConfig.attributes.contact.phone}
+					whatsappHref={whatsappHref}
+					email={siteConfig.attributes.contact.email}
+				/>
+			</section>
+		</main>
+	);
 }

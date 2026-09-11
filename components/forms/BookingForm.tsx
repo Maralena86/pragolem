@@ -23,11 +23,26 @@ import {
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 
+// export interface BookingTourOption {
+// 	id: string;
+// 	slug: string;
+// 	title: string;
+// 	valueTime: string ;
+// 	labelTimeKey: string ;
+// 	priceType: "free" | "paid";
+// }
+export interface TimeSlotOption {
+	valueTime: string;
+	labelTimeKey: string;
+}
+
 export interface BookingTourOption {
-  id: string;
-  slug: string;
-  title: string;
-  priceType: "free" | "paid";
+	id: string;
+	slug: string;
+	title: string;
+	timeSlots: TimeSlotOption[]; // plusieurs créneaux possibles
+	priceType: "free" | "paid";
+	isPrivate: boolean; 
 }
 
 interface BookingFormValues {
@@ -48,12 +63,12 @@ type BookingFormTranslator = ReturnType<typeof useTranslations>;
 
 // const PARTICIPANT_OPTIONS = [1, 2, 3, 4, 5, 6] as const;
 
-const TIME_SLOT_OPTIONS = [
-	{ value: "09:00", labelKey: "timeSlots.slot0900" },
-	{ value: "11:00", labelKey: "timeSlots.slot1100" },
-	{ value: "14:00", labelKey: "timeSlots.slot1400" },
-	{ value: "17:00", labelKey: "timeSlots.slot1700" },
-] as const;
+// const TIME_SLOT_OPTIONS = [
+// 	{ value: "09:00", labelKey: "timeSlots.slot0900" },
+// 	{ value: "11:00", labelKey: "timeSlots.slot1100" },
+// 	{ value: "14:00", labelKey: "timeSlots.slot1400" },
+// 	{ value: "17:00", labelKey: "timeSlots.slot1700" },
+// ] as const;
 
 const LANGUAGE_OPTIONS = [
 	{ value: "en", labelKey: "languageOptions.en" },
@@ -223,10 +238,14 @@ export function BookingForm({
 	//   setErrors({});
 	//   setIsSubmitting(false);
 	// };
+	const selectedTour = tourOptions.find(
+		(tour) => tour.slug === values.tourSlug,
+	);
 	/**
 	 * Validates the form, submits the booking to the API route, and shows a toast
 	 * based on the result. On success, the form resets to its initial state.
 	 */
+
 	const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
 		const nextErrors = validateBookingValues(values, todayDateString, t);
@@ -275,6 +294,11 @@ export function BookingForm({
 			setIsSubmitting(false);
 		}
 	};
+	console.log("tourOptions:", tourOptions);
+	console.log(
+		"slugs:",
+		tourOptions.map((t) => t.slug),
+	);
 	return (
 		<form onSubmit={handleSubmit} noValidate className="space-y-5">
 			<FieldGroup>
@@ -282,7 +306,19 @@ export function BookingForm({
 					<FieldLabel htmlFor="booking-tour">{t("tourLabel")}</FieldLabel>
 					<Select
 						value={values.tourSlug}
-						onValueChange={(value) => updateField("tourSlug", value)}
+						onValueChange={(value) => {
+							const newlySelectedTour = tourOptions.find(
+								(tour) => tour.slug === value,
+							);
+							const defaultTimeSlot =
+								newlySelectedTour?.timeSlots[0]?.valueTime ?? "";
+
+							setValues((previousValues) => ({
+								...previousValues,
+								tourSlug: value,
+								timeSlot: defaultTimeSlot,
+							}));
+						}}
 					>
 						<SelectTrigger
 							id="booking-tour"
@@ -320,24 +356,44 @@ export function BookingForm({
 						<FieldLabel htmlFor="booking-time-slot">
 							{t("timeSlotLabel")}
 						</FieldLabel>
-						<Select
-							value={values.timeSlot}
-							onValueChange={(value) => updateField("timeSlot", value)}
-						>
-							<SelectTrigger
-								id="booking-time-slot"
-								aria-invalid={Boolean(errors.timeSlot)}
+
+						{selectedTour && selectedTour.timeSlots.length > 1 ? (
+							// Plusieurs créneaux → select interactif
+							<Select
+								value={values.timeSlot}
+								onValueChange={(value) => updateField("timeSlot", value)}
 							>
-								<SelectValue placeholder={t("timeSlotPlaceholder")} />
-							</SelectTrigger>
-							<SelectContent>
-								{TIME_SLOT_OPTIONS.map((slot) => (
-									<SelectItem key={slot.value} value={slot.value}>
-										{t(slot.labelKey)}
-									</SelectItem>
-								))}
-							</SelectContent>
-						</Select>
+								<SelectTrigger
+									id="booking-time-slot"
+									aria-invalid={Boolean(errors.timeSlot)}
+								>
+									<SelectValue placeholder={t("timeSlotPlaceholder")} />
+								</SelectTrigger>
+								<SelectContent>
+									{selectedTour.timeSlots.map((slot) => (
+										<SelectItem key={slot.valueTime} value={slot.valueTime}>
+											{t(slot.labelTimeKey)}
+										</SelectItem>
+									))}
+								</SelectContent>
+							</Select>
+						) : (
+							// 0 ou 1 créneau → affichage fixe, non modifiable
+							<Input
+								id="booking-time-slot"
+								value={
+									selectedTour?.timeSlots[0]
+										? t(selectedTour.timeSlots[0].labelTimeKey)
+										: ""
+								}
+								placeholder={t("timeSlotPlaceholder")}
+								readOnly
+								disabled
+							/>
+						)}
+						{selectedTour?.isPrivate && (
+							<FieldDescription>{t("privateTourNotice")}</FieldDescription>
+						)}
 						<FieldError>{errors.timeSlot}</FieldError>
 					</Field>
 				</div>

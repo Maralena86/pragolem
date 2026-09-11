@@ -254,15 +254,17 @@
       "timeSlotLabel": "Créneau horaire",
       "timeSlotPlaceholder": "Sélectionner un horaire",
       "timeSlots": {
-        "slot0900": "09:00",
-        "slot1100": "11:00",
-        "slot1400": "14:00",
-        "slot1700": "17:00"
-      },
+      "slot0900": "09:00",
+      "slot1000": "10:00",
+      "slot1100": "11:00",
+      "slot1400": "14:00",
+      "slot1700": "17:00"
+    },
       "participantsLabel": "Participants",
       "participantsPlaceholder": "Sélectionner la taille du groupe",
       "participantsCount": "{count} participant(s)",
       "participantsPrivateNote": "Pour les groupes de plus de 6 participants, merci de <contactLink>nous contacter</contactLink> pour une visite privée.",
+      "privateTourNotice": "Pour les visites privées, l'horaire est provisoire ; la durée exacte et le point de rencontre seront convenus directement avec vous.",
       "languageLabel": "Langue",
       "languagePlaceholder": "Sélectionner une langue",
       "languageOptions": {

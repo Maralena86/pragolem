@@ -255,6 +255,7 @@
       "timeSlotPlaceholder": "Select a time",
       "timeSlots": {
         "slot0900": "09:00",
+        "slot1000": "10:00",
         "slot1100": "11:00",
         "slot1400": "14:00",
         "slot1700": "17:00"
@@ -263,6 +264,7 @@
       "participantsPlaceholder": "Select group size",
       "participantsCount": "{count} participant(s)",
       "participantsPrivateNote": "For groups above 6 participants, please <contactLink>contact us</contactLink> for a private tour.",
+      "privateTourNotice": "For private tours, the schedule is provisional; the exact duration and meeting point will be confirmed directly with you.",
       "languageLabel": "Language",
       "languagePlaceholder": "Select a language",
       "languageOptions": {

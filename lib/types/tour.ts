@@ -1,3 +1,4 @@
+import { TimeSlotOption } from "@/components/forms/BookingForm";
 import type {
   LocaleCode,
   MediaAsset,
@@ -47,6 +48,8 @@ export interface TourAttributes extends StrapiMeta {
   languages: string[];
   maxGroupSize: number;
   priceType: "free" | "paid";
+  timeSlots?: TimeSlotOption[]; 
+  isPrivate?: boolean; 
   meetingPoint: TourMeetingPoint;
   itinerary: TourStop[];
   practicalInfo: TourPracticalInfo;

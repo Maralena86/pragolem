@@ -33,13 +33,18 @@ Si vous recherchez une visite guidée privée à Prague en français, Pragolem p
       languages: ["fr", "en"],
       maxGroupSize: 40,
       priceType: "paid",
+      isPrivate: true,
+      timeSlots: [
+        { valueTime: "10:00", labelTimeKey: "timeSlots.slot1000" },
+        { valueTime: "14:00", labelTimeKey: "timeSlots.slot1400" },
+      ],
       meetingPoint: {
         address: "Sur mesure (hotel, entreprise ou point central)",
         description:
           "Le point de rendez-vous final est confirmé apres validation de l'itinéraire.",
         latitude: 50.087,
         longitude: 14.421,
-        googleMapsUrl: "https://maps.google.com/?q=50.087,14.421",
+        googleMapsUrl: "https://www.google.com/maps/place/Pragolem/@50.0880329,14.4206504,16z/data=!3m1!4b1!4m6!3m5!1s0x470b95b05e564ad7:0x424f120f71a9b415!8m2!3d50.0880329!4d14.4206504!16s%2Fg%2F11xl02djfm!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
       },
       itinerary: [
         {
@@ -177,13 +182,18 @@ If you are searching for private guided tours in Prague with genuine local exper
       languages: ["en", "fr"],
       maxGroupSize: 40,
       priceType: "paid",
+      isPrivate: true,
+      timeSlots: [
+        { valueTime: "10:00", labelTimeKey: "timeSlots.slot1000" },
+        { valueTime: "14:00", labelTimeKey: "timeSlots.slot1400" },
+      ],
       meetingPoint: {
         address: "Custom (hotel, office, or central meeting point)",
         description:
           "Final meeting instructions are confirmed after booking based on your itinerary.",
         latitude: 50.087,
         longitude: 14.421,
-        googleMapsUrl: "https://maps.google.com/?q=50.087,14.421",
+        googleMapsUrl: "https://www.google.com/maps/place/Pragolem/@50.0880329,14.4206504,16z/data=!3m1!4b1!4m6!3m5!1s0x470b95b05e564ad7:0x424f120f71a9b415!8m2!3d50.0880329!4d14.4206504!16s%2Fg%2F11xl02djfm!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D",
       },
       itinerary: [
         {
@@ -220,6 +230,7 @@ If you are searching for private guided tours in Prague with genuine local exper
           description:
             "Continue with a complementary neighborhood or topic selected in advance.",
           durationMinutes: 60,
+        
         },
         {
           order: 6,
@@ -323,6 +334,9 @@ If you are searching for private guided tours in Prague with genuine local exper
       languages: ["en", "fr"],
       maxGroupSize: 24,
       priceType: "free",
+      timeSlots: [
+        { valueTime: "10:00", labelTimeKey: "timeSlots.slot1000" },
+      ],
       meetingPoint: {
         address: "Old Town Square,",
         description:
@@ -587,6 +601,9 @@ If you are searching for private guided tours in Prague with genuine local exper
       languages: ["fr", "en"],
       maxGroupSize: 24,
       priceType: "free",
+      timeSlots: [
+        { valueTime: "10:00", labelTimeKey: "timeSlots.slot1000" },
+      ],
       meetingPoint: {
         address: "Place de la vieille ville face au magasin Cartier",
         description:
@@ -835,6 +852,9 @@ If you are searching for private guided tours in Prague with genuine local exper
       languages: ["en", "fr"],
       maxGroupSize: 24,
       priceType: "free",
+      timeSlots: [
+        { valueTime: "14:00", labelTimeKey: "timeSlots.slot1400" },
+      ],
       meetingPoint: {
         address: "Exit of the Malostranská metro ",
         description: "Malostranská",
@@ -1058,6 +1078,9 @@ If you are searching for private guided tours in Prague with genuine local exper
       languages: ["fr", "en"],
       maxGroupSize: 24,
       priceType: "free",
+      timeSlots: [
+        { valueTime: "14:00", labelTimeKey: "timeSlots.slot1400" },
+      ],
       meetingPoint: {
         address: "Malostranská ",
         description: "Sortie du métro Malostranská ",
