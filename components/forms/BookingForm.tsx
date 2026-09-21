@@ -41,7 +41,7 @@ export interface BookingTourOption {
 	slug: string;
 	title: string;
 	timeSlots: TimeSlotOption[]; // plusieurs créneaux possibles
-	priceType: "free" | "paid";
+	priceType: "free" | "paid" | "pwyw";
 	isPrivate: boolean; 
 }
 
