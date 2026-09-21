@@ -47,7 +47,8 @@ export interface TourAttributes extends StrapiMeta {
   durationDisplay: string;
   languages: string[];
   maxGroupSize: number;
-  priceType: "free" | "paid";
+  priceType: "free" | "paid" | "pwyw"; 
+  minPrice?: number; 
   timeSlots?: TimeSlotOption[]; 
   isPrivate?: boolean; 
   meetingPoint: TourMeetingPoint;

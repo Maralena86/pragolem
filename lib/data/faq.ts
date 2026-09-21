@@ -20,7 +20,7 @@ const faqEn: FAQItem[] = [
     slug: "is-the-tour-really-free",
     locale: "en",
     attributes: {
-      question: "Is it really free?",
+      question: "Is it possible to attend the tour for free?",
       answer:
         "No. There is a mandatory minimum 500 CZK or 20€ per person fee. Pragolem operates in a way where we try to keep tours accessible while rewarding quality guiding. Nevertheless this is a job and we cannot operate at losses.",
       category: "walking-tours",
@@ -33,7 +33,7 @@ const faqEn: FAQItem[] = [
     slug: "how-much-should-i-tip",
     locale: "en",
     attributes: {
-      question: "How much should I tip on a free tour?",
+      question: " How does the pricing work?",
       answer:
         "TYou should always try to tip your guides as best as you can, They are there to provide you with knowledge and a lot of practical information that will save you money in the long run. As previously stated Pragolem operates at a minimum fee starting at 500 CZK or 20€ per person. Everything to pay on top of that is what keeps the project alive and that pays for example for this website.",
       category: "walking-tours",
@@ -72,9 +72,9 @@ const faqEn: FAQItem[] = [
     slug: "how-long-are-the-tours",
     locale: "en",
     attributes: {
-      question: "How long are your free tours?",
+      question: "How long are your walking tours?",
       answer:
-        "Our main free walking tours in Prague are approximately 3 hours, with short standing stops and practical orientation breaks.",
+        "Our main walking tours in Prague are approximately 3 hours, with short standing stops and practical orientation breaks.",
       category: "tours",
       order: 6,
     },
@@ -243,10 +243,10 @@ const faqFr: FAQItem[] = [
   },
   {
     id: "faq-fr-002",
-    slug: "est-ce-vraiment-gratuit",
+    slug: "est-ce-possible-de-participer-a-la-visite-gratuitement",
     locale: "fr",
     attributes: {
-      question: "Est-ce vraiment gratuit ?",
+      question: "Est-il possible de participer à la visite gratuitement ?",
       answer:
         "Non. Une participation minimale obligatoire de 500 CZK ou 20 € par personne s’applique. Pragolem cherche à rendre ses visites accessibles tout en valorisant la qualité du guidage. Mais cela reste notre métier et nous ne pouvons pas travailler à perte.",
       category: "walking-tours",

@@ -28,6 +28,7 @@ import {
 } from "@/components/icons/social-icons";
 import { Separator } from "@/components/ui/separator";
 import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
+import { ThemeToggle } from "../ui/theme-toggle";
 
 type NavHref = "/tours" | "/about" | "/reviews" | "/faq" | "/contact";
 
@@ -60,14 +61,16 @@ export function Header() {
 		<header className="border-b">
 			<div className="mx-auto flex w-full max-w-6xl items-center gap-2 px-4 py-3 sm:px-6">
 				<Link href="/" className="inline-flex items-center gap-2">
-					<Image
-						src="/pragolem-logo.avif"
-						alt=""
-						width={20}
-						height={20}
-						className="size-5"
-						aria-hidden="true"
-					/>
+					<div className="bg-[#123865] flex items-center justify-center w-6 h-6 rounded-full">
+						<Image
+							src="/pragolem-logo.avif"
+							alt=""
+							width={20}
+							height={20}
+							className="size-5"
+							aria-hidden="true"
+						/>
+					</div>
 					<span className="font-semibold tracking-tight">{t("brand")}</span>
 				</Link>
 
@@ -124,6 +127,7 @@ export function Header() {
 						<Link href="/booking">{t("bookingCta")}</Link>
 					</Button>
 				</div>
+				<ThemeToggle />
 
 				<Sheet open={isMobileOpen} onOpenChange={setIsMobileOpen}>
 					<SheetTrigger asChild className="md:hidden">

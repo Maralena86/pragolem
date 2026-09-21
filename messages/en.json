@@ -332,6 +332,8 @@
       "placeholderNote": "Use the link below to open the current static map location.",
       "openStaticLink": "Open static map link"
     },
+    "pwywSchemaOffer": "Pay what you want, €20 minimum",
+    "pwywPriceSpecDescription": "Pay-what-you-want, starting at €20",
     "form": {
       "nameLabel": "Name",
       "namePlaceholder": "Your name",

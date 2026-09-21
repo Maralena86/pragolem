@@ -332,6 +332,8 @@
       "placeholderNote": "Utilisez le lien ci-dessous pour ouvrir la carte statique actuelle.",
       "openStaticLink": "Ouvrir le lien de carte"
     },
+    "pwywSchemaOffer": "Prix libre, minimum 20€",
+    "pwywPriceSpecDescription": "Prix libre à partir de 20€",
     "form": {
       "nameLabel": "Nom",
       "namePlaceholder": "Votre nom",

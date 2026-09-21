@@ -8,6 +8,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { getSiteUrl } from "@/lib/env";
 import type { LocaleCode } from "@/lib/types/common";
@@ -40,6 +41,7 @@ export function generateMetadata(): Metadata {
 	const siteUrl = getSiteUrl();
 
 	return {
+		metadataBase: new URL(siteUrl),
 		title: "Pragolem Tours",
 		description: "Discover Prague with certified local guides.",
 		openGraph: {
@@ -81,34 +83,38 @@ export default async function LocaleLayout({
 	return (
 		<html
 			lang={locale}
-			className={`${outfit.variable} ${quintessential.variable} ${eagleLake.variable} ${gondola.variable}`}
+			className={`${outfit.variable} ${quintessential.variable} ${eagleLake.variable} ${gondola.variable}
+			`} suppressHydrationWarning
 		>
-			<body className={`font-sans antialiased dark`}>
-				<NextIntlClientProvider locale={locale} messages={messages}>
-					<a
-						href="#main-content"
-						className="sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-background focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:shadow-md focus:ring-2 focus:ring-ring"
-					>
-						{locale === "fr" ? "Aller au contenu" : "Skip to content"}
-					</a>
-					<div className="flex min-h-screen flex-col">
-						<Header />
-						<div className="flex-1">{children}</div>
-						<Footer locale={localeCode} />
-						<Toaster richColors position="top-right" />
-					</div>
-				</NextIntlClientProvider>
-				{googleAnalyticsMeasurementId ? (
-					<>
-						<Script
-							src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsMeasurementId}`}
-							strategy="afterInteractive"
-						/>
-						<Script id="google-analytics" strategy="afterInteractive">
-							{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${googleAnalyticsMeasurementId}');`}
-						</Script>
-					</>
-				) : null}
+			<body className={`font-sans antialiased `}>
+				<ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+					<NextIntlClientProvider locale={locale} messages={messages}>
+						<a
+							href="#main-content"
+							className="sr-only focus:not-sr-only focus:fixed focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-background focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:shadow-md focus:ring-2 focus:ring-ring"
+						>
+							{locale === "fr" ? "Aller au contenu" : "Skip to content"}
+						</a>
+						<div className="flex min-h-screen flex-col">
+							<Header />
+							<div className="flex-1">{children}</div>
+							<Footer locale={localeCode} />
+							<Toaster richColors position="top-right" />
+						</div>
+					</NextIntlClientProvider>
+
+					{googleAnalyticsMeasurementId ? (
+						<>
+							<Script
+								src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsMeasurementId}`}
+								strategy="afterInteractive"
+							/>
+							<Script id="google-analytics" strategy="afterInteractive">
+								{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${googleAnalyticsMeasurementId}');`}
+							</Script>
+						</>
+					) : null}
+				</ThemeProvider>
 			</body>
 		</html>
 	);

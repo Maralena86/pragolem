@@ -33,7 +33,9 @@ import { TourReviewsSection } from "./tour-reviews-section";
  * Selects the most relevant FAQ category for the tour format so the FAQ section stays contextual.
  */
 function getFaqCategoryForTour(tour: Tour): FAQCategory {
-	return tour.attributes.priceType === "paid" ? "private-tours" : "walking-tours";
+	return tour.attributes.priceType === "paid"
+		? "private-tours"
+		: "walking-tours";
 }
 
 /**
@@ -245,6 +247,7 @@ export default async function TourDetailPage({
 				},
 			})),
 		},
+
 		offers:
 			tour.attributes.priceType === "free"
 				? {
@@ -253,6 +256,27 @@ export default async function TourDetailPage({
 						priceCurrency: "EUR",
 						availability: "https://schema.org/InStock",
 						description: t("pricing.freeSchemaOffer"),
+					}
+				: tour.attributes.priceType === "pwyw"
+					? {
+							"@type": "Offer",
+							priceCurrency: "EUR",
+							priceSpecification: {
+								"@type": "UnitPriceSpecification",
+								minPrice: tour.attributes.minPrice ?? 20,
+								priceCurrency: "EUR",
+								description: t("pricing.pwywPriceSpecDescription"),
+							},
+							availability: "https://schema.org/InStock",
+							description: t("pricing.pwywSchemaOffer"),
+						}
+					: undefined,
+		aggregateRating:
+			aggregate.reviewCount > 0
+				? {
+						"@type": "AggregateRating",
+						ratingValue: aggregate.ratingValue,
+						reviewCount: aggregate.reviewCount,
 					}
 				: undefined,
 	};
