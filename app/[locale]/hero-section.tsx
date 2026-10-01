@@ -68,7 +68,7 @@ export function HeroSection({
 					<CardHeader className="flex flex-col justify-center items-center">
 						{/* <CardTitle>{aggregateRating.reviewCount}</CardTitle> */}
 						<CardTitle className="text-center">135</CardTitle>
-						<CardDescription className="text-center leading-3.5 text-[#657d9d]">{t("hero.googleReviewsLabel")}</CardDescription>
+						<CardDescription className="text-center leading-3.5 text-[#657d9d] ">{t("hero.googleReviewsLabel")}</CardDescription>
 					</CardHeader>
 				</Card>
 				<Card size="sm">
