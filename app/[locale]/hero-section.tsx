@@ -59,21 +59,22 @@ export function HeroSection({
 
 			<div className="grid gap-3 sm:grid-cols-3 md:grid-cols-1  md:w-20">
 				<Card size="sm">
-					<CardHeader>
-						<CardTitle>{aggregateRating.ratingValue}/5</CardTitle>
-						<CardDescription>{t("hero.ratingLabel")}</CardDescription>
+					<CardHeader className="flex flex-col justify-center items-center ">
+						<CardTitle>{aggregateRating.ratingValue}/5<span className="text-amber-500 text-xs ms-1">★</span></CardTitle>
+						<CardDescription className="text-center leading-3.5 text-[#657d9d]">{t("hero.ratingLabel")}</CardDescription>
 					</CardHeader>
 				</Card>
 				<Card size="sm">
-					<CardHeader>
-						<CardTitle>{aggregateRating.reviewCount}</CardTitle>
-						<CardDescription>{t("hero.reviewsLabel")}</CardDescription>
+					<CardHeader className="flex flex-col justify-center items-center">
+						{/* <CardTitle>{aggregateRating.reviewCount}</CardTitle> */}
+						<CardTitle className="text-center">135</CardTitle>
+						<CardDescription className="text-center leading-3.5 text-[#657d9d]">{t("hero.googleReviewsLabel")}</CardDescription>
 					</CardHeader>
 				</Card>
 				<Card size="sm">
-					<CardHeader>
+					<CardHeader className="flex flex-col justify-center items-center">
 						<CardTitle>{tourCount}</CardTitle>
-						<CardDescription>{t("hero.toursLabel")}</CardDescription>
+						<CardDescription className="text-center leading-3.5 text-[#657d9d]">{t("hero.toursLabel")}</CardDescription>
 					</CardHeader>
 				</Card>
 			</div>

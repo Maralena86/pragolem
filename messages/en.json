@@ -12,6 +12,7 @@
       "secondaryCta": "See all tours",
       "ratingLabel": "Average rating",
       "reviewsLabel": "Published reviews",
+      "googleReviewsLabel": "Google reviews",
       "toursLabel": "Available tours"
     },
     "sections": {
@@ -76,16 +77,17 @@
       "languagesLabel": "Guiding languages",
       "yearsInPrague": "{count} years in Prague"
     },
-    "reviews": {
-      "aggregate": "Rated {rating}/5 from {count} reviews",
-      "placeholderBadge": "Placeholder review",
-      "cta": "See all reviews",
-      "source": {
-        "google": "Google",
-        "tripadvisor": "Tripadvisor",
-        "direct": "Direct"
-      }
+ 
+  "reviews": {
+    "google": {
+      "aggregate": "{rating} ★ · {count} Google reviews",
+      "cta": "See all reviews →"
     },
+    "source": {
+      "google": "Google",
+      "direct": "Direct review"
+    }
+  },
     "faq": {
       "cta": "Read full FAQ"
     },
@@ -452,7 +454,7 @@
       "scopeValue": "All languages and tours"
     },
     "grid": {
-      "title": "Review grid",
+      "title": "Other reviews",
       "subtitle": "Filter by language and tour to see the feedback most relevant to your plan."
     },
     "filters": {
@@ -477,6 +479,16 @@
       "google": "Google",
       "tripadvisor": "Tripadvisor",
       "direct": "Direct"
+    },
+     "reviews": {
+      "google": {
+        "aggregate": "{rating} ★ · {count} Google reviews",
+        "cta": "See all reviews →"
+      },
+      "source": {
+        "google": "Google",
+        "direct": "Direct review"
+      }
     }
   },
   "BlogIndexPage": {

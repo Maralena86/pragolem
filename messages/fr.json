@@ -12,6 +12,7 @@
       "secondaryCta": "Voir toutes les visites",
       "ratingLabel": "Note moyenne",
       "reviewsLabel": "Avis publiés",
+      "googleReviewsLabel": "Avis Google",
       "toursLabel": "Visites disponibles"
     },
     "sections": {
@@ -77,15 +78,15 @@
       "yearsInPrague": "{count} ans à Prague"
     },
     "reviews": {
-      "aggregate": "Note de {rating}/5 sur {count} avis",
-      "placeholderBadge": "Avis provisoire",
-      "cta": "Voir tous les avis",
-      "source": {
-        "google": "Google",
-        "tripadvisor": "Tripadvisor",
-        "direct": "Direct"
-      }
-    },
+        "google": {
+          "aggregate": "{rating} ★ · {count} avis Google",
+          "cta": "Voir tous les avis →"
+        },
+        "source": {
+          "google": "Google",
+          "direct": "Avis direct"
+        }
+      },
     "faq": {
       "cta": "Voir la FAQ complète"
     },
@@ -452,7 +453,7 @@
       "scopeValue": "Toutes langues et toutes visites"
     },
     "grid": {
-      "title": "Grille d avis",
+      "title": "Autres avis",
       "subtitle": "Filtrez par langue et par visite pour cibler les retours les plus utiles."
     },
     "filters": {
@@ -475,7 +476,17 @@
       "google": "Google",
       "tripadvisor": "Tripadvisor",
       "direct": "Direct"
-    }
+    },
+    "reviews": {
+        "google": {
+          "aggregate": "{rating} ★ · {count} avis Google",
+          "cta": "Voir tous les avis →"
+        },
+        "source": {
+          "google": "Google",
+          "direct": "Avis direct"
+        }
+      }
   },
   "BlogIndexPage": {
     "meta": {

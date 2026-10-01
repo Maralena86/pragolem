@@ -12,6 +12,7 @@ import type { Tour } from "@/lib/types/tour";
 import { ReviewsGridSection } from "./reviews-grid-section";
 import { ReviewsHeroSection } from "./reviews-hero-section";
 import { ReviewsSummarySection } from "./reviews-summary-section";
+import GoogleReviews from "./google-reeviews";
 
 /**
  * Returns the localized pathname for the reviews index route.
@@ -166,7 +167,12 @@ export default async function ReviewsPage({
 
       <main id="main-content" className="mx-auto flex w-full max-w-6xl flex-col gap-10 px-4 py-10 sm:px-6 sm:py-12">
         <ReviewsHeroSection t={t} />
-        <ReviewsSummarySection t={t} ratingValue={aggregateRating.ratingValue} reviewCount={aggregateRating.reviewCount} />
+        <GoogleReviews t={t} />
+        <ReviewsSummarySection
+          t={t}
+          ratingValue={aggregateRating.ratingValue}
+          reviewCount={aggregateRating.reviewCount}
+        />
         <ReviewsGridSection t={t} items={reviewItems} defaultLanguage={localeCode} />
       </main>
     </>
